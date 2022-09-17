@@ -1,0 +1,7 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "repository": "https://github.com/gossi/ember-ability",
+  "license": "MIT",
+  "author": "Thomas Gossmann"
+}
