@@ -10,7 +10,7 @@
     "ember-ability": "*"
   },
   "devDependencies": {
-    "@gossi/config-eslint": "^0.1.3",
+    "@gossi/config-eslint": "^0.6.0",
     "@gossi/config-prettier": "^0.1.3",
     "@gossi/config-targets": "^0.1.3",
     "@jest/globals": "^29.0.3",
