@@ -3,5 +3,8 @@
   "private": true,
   "repository": "https://github.com/gossi/ember-ability",
   "license": "MIT",
-  "author": "Thomas Gossmann"
+  "author": "Thomas Gossmann",
+  "volta": {
+    "node": "18.17.1"
+  }
 }

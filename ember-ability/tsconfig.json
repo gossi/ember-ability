@@ -1,46 +1,21 @@
 {
+  "extends": "@tsconfig/ember/tsconfig.json",
   "compilerOptions": {
-    // Path resolution
-    "moduleResolution": "node",
-
-    // We only use tsc for type checking and declaration output
-    "emitDeclarationOnly": false,
-    "declaration": true,
-    "declarationMap": true,
-    "declarationDir": "./dist",
-    "inlineSourceMap": true,
-    "inlineSources": true,
-
-    // Build settings
-    "noEmitOnError": false,
-    "module": "ESNext",
-    "target": "ESNext",
-
-    // Features
-    "experimentalDecorators": true,
-    "allowJs": false,
-    "allowSyntheticDefaultImports": true,
-
-    // Strictness / Correctness
-    "strict": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-
-    "baseUrl": "./src",
-
+    "declarationDir": "./declarations",
     "paths": {
-      "*": ["types/*"]
-    }
+      "*": [
+        "./types/*"
+      ]
+    },
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*",
     "types/**/*"
-  ]
+  ],
+  "glint": {
+    "environment": [
+      "ember-loose"
+    ]
+  }
 }
