@@ -4,6 +4,7 @@ import { sweetenOwner } from 'ember-sweet-owner';
 import type Owner from '@ember/owner';
 import type { SweetOwner } from 'ember-sweet-owner';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type AnyFunction = (...args: never[]) => any;
 
 export function ability<F extends AnyFunction>(setup: (owner: SweetOwner) => F) {
