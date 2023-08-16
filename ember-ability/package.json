@@ -48,7 +48,7 @@
     "@types/ember__owner": "^4.0.0",
     "@types/ember__service": "^4.0.0",
     "@types/inflection": "^1.13.0",
-    "concurrently": "^7.4.0",
+    "concurrently": "^8.0.0",
     "eslint": "^8.23.1",
     "prettier": "^2.7.1",
     "release-it": "^15.4.1",
