@@ -1,17 +1,9 @@
 import {
   setupApplicationTest as upstreamSetupApplicationTest,
   setupRenderingTest as upstreamSetupRenderingTest,
-  setupTest as upstreamSetupTest
+  setupTest as upstreamSetupTest,
+  SetupTestOptions,
 } from 'ember-qunit';
-
-import type EmberResolver from 'ember-resolver';
-
-interface SetupTestOptions {
-  /**
-   * The resolver to use when instantiating container-managed entities in the test.
-   */
-  resolver?: EmberResolver | undefined;
-}
 
 // This file exists to provide wrappers around ember-qunit's / ember-mocha's
 // test setup functions. This way, you can easily extend the setup that is

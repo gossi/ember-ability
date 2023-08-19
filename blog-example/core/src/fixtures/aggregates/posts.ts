@@ -19,7 +19,7 @@ export const EMBER_AND_STORYBOOK: Post = Object.freeze({
 });
 
 export const EMBER_TIMES_206: Post = Object.freeze({
-  id: '1744',
+  id: '1234',
   title: 'The Ember Times - Issue No. 206',
   content: '...',
   link: 'https://blog.emberjs.com/the-ember-times-issue-206',

@@ -3,7 +3,7 @@ import Route from '@ember/routing/route';
 
 async function setupMSW(context: ApplicationRoute) {
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
+  // @ts-ignore
   let { worker } = await import('/mocks/browser.js');
 
   await worker.start();

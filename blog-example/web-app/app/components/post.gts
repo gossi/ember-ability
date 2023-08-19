@@ -2,19 +2,24 @@ import { canEdit as upstreamCanEdit, type Post } from '@my-blog/core/aggregates/
 import { ability } from 'ember-ability';
 import { RemoteData } from 'ember-resources/util/remote-data';
 
+import type { TOC } from '@ember/component/template-only';
+
+const RemotePost = RemoteData<Post>;
 const urlFor = (id: string) => `/api/posts/${id}`;
 
 const canEdit = ability(({ services }) => (post: Post) => {
-  console.log(post, services);
-
-  return true;
-  // upstreamCanEdit(post, services.user.currentUser)
+  return upstreamCanEdit(post, services.user.currentUser);
 });
 
-<template>
-  {{#let (RemoteData (urlFor @id)) as |request|}}
+interface PostSignature {
+  Args: {
+    id: string;
+  };
+}
+
+const P: TOC<PostSignature> = <template>
+  {{#let (RemotePost (urlFor @id)) as |request|}}
     {{#if request.value}}
-      {{log request.value}}
       {{#if (canEdit request.value)}}
         <aside>You can edit this post</aside>
       {{/if}}
@@ -29,3 +34,11 @@ const canEdit = ability(({ services }) => (post: Post) => {
     {{/if}}
   {{/let}}
 </template>
+
+export default P;
+
+declare module '@glint/environment-ember-loose/registry' {
+  export default interface Registry {
+    Post: typeof P;
+  }
+}

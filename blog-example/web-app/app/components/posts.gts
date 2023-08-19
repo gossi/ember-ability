@@ -2,8 +2,20 @@ import { on } from '@ember/modifier';
 
 import { RemoteData } from 'ember-resources/util/remote-data';
 
-<template>
-  {{#let (RemoteData "/api/posts") as |request|}}
+import type { TOC } from '@ember/component/template-only';
+import type { Post } from '@my-blog/core/aggregates/blog';
+import type { Link } from 'ember-link';
+
+const RemotePosts = RemoteData<Post[]>;
+
+interface PostsSignature {
+  Args: {
+    buildPostLink: (id: string) => Link;
+  };
+}
+
+const Posts: TOC<PostsSignature> = <template>
+  {{#let (RemotePosts "/api/posts") as |request|}}
     {{#if request.value}}
       {{#each request.value as |post|}}
         <article>
@@ -15,3 +27,11 @@ import { RemoteData } from 'ember-resources/util/remote-data';
     {{/if}}
   {{/let}}
 </template>
+
+export default Posts;
+
+declare module '@glint/environment-ember-loose/registry' {
+  export default interface Registry {
+    Posts: typeof Posts;
+  }
+}

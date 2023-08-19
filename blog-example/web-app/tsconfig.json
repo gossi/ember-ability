@@ -1,7 +1,10 @@
 {
   "extends": "@tsconfig/ember/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": "./",
+    // The combination of `baseUrl` with `paths` allows Ember's classic package
+    // layout, which is not resolvable with the Node resolution algorithm, to
+    // work with TypeScript.
+    "baseUrl": ".",
     "paths": {
       "@my-blog/web-app/tests/*": [
         "tests/*"
@@ -12,11 +15,7 @@
       "*": [
         "types/*"
       ]
-    },
-    // make type checking work:
-    // "skipLibCheck": false,
-    // allow tests to compile for ember versions below v3
-    "noEmitOnError": false
+    }
   },
   "include": [
     "app/**/*",

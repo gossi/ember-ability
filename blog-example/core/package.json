@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "build": "concurrent 'npm:build:*'",
+    "build": "concurrently 'npm:build:*'",
     "build:js": "pnpm swc src/ --out-dir dist/",
     "build:types": "tsc --emitDeclarationOnly",
     "lint": "concurrently 'npm:lint:*(!fix)'",

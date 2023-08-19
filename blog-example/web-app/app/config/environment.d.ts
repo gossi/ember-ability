@@ -1,8 +1,6 @@
-export default config;
-
 /**
  * Type declarations for
- *    import config from 'my-app/config/environment'
+ *    import config from '@my-blog/web-app/config/environment'
  */
 declare const config: {
   environment: string;
@@ -12,3 +10,5 @@ declare const config: {
   rootURL: string;
   APP: Record<string, unknown>;
 };
+
+export default config;
