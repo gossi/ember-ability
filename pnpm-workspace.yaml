@@ -1,3 +1,4 @@
 packages:
-  - "ember-ability/"
-  - "testing/*"
+  - ember-ability/
+  - blog-example/*
+  - test-app/

@@ -1,29 +1,27 @@
-import { makeContainer } from 'ember-container';
 import { resource, resourceFactory } from 'ember-resources';
+import { sweetenOwner } from 'ember-sweet-owner';
 
-import type { Container } from 'ember-container';
+import type Owner from '@ember/owner';
+import type { SweetOwner } from 'ember-sweet-owner';
 
-type Ability<Params extends unknown[], Return = unknown> =
-  | ((...args: Params) => Return)
-  | ((...args: [...Params, Container]) => Return);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type AnyFunction = (...args: never[]) => any;
 
-export function ability<Params extends unknown[], Return = unknown>(
-  // eslint-disable-next-line @typescript-eslint/no-shadow
-  ability: Ability<Params, Return>
-) {
-  return resourceFactory<Return, Params>((...args) => {
-    //
+export function ability<F extends AnyFunction>(setup: (owner: SweetOwner) => F) {
+  return resourceFactory<ReturnType<F>, Parameters<F>>((...args) => {
+    const CACHE = new WeakMap<Owner, F>();
 
     return resource(({ owner }) => {
       // setup
       // on.cleanup(() => {});
 
-      const container = makeContainer(owner); // or maybe container directly ?
+      if (!CACHE.has(owner)) {
+        CACHE.set(owner, setup(sweetenOwner(owner)));
+      }
 
-      // "the getter" of the resource
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      return ability(...args, container);
+      const runAbility = CACHE.get(owner) as F;
+
+      return runAbility(...args);
     });
   });
 }
