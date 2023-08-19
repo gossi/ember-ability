@@ -79,7 +79,7 @@ module('Unit | ability', function (hooks) {
 
       await rerender();
 
-      assert.dom().hasText('yes'); // as user is not tracked, it still is the tomster
+      assert.dom().hasText('yes'); // as user is not tracked, it still renders yes for Tomster
     });
 
     test('ability is reactive', async function (this: TestContext, assert) {
@@ -109,26 +109,3 @@ module('Unit | ability', function (hooks) {
     });
   });
 });
-
-// module('Unit | Sweet Owner', function (hooks) {
-//   setupTest(hooks);
-
-//   test('can access service from sweet owner', async function (this: TestContext, assert) {
-//     this.owner.register('service:foo', SessionService);
-
-//     const container = sweetenOwner(this.owner);
-
-//     assert.ok(container.services.foo);
-//     assert.strictEqual(container.services.foo.prop, 'foo');
-//   });
-
-//   test('destructuring', async function (this: TestContext, assert) {
-//     this.owner.register('service:foo', SessionService);
-
-//     const { services } = sweetenOwner(this.owner);
-//     const { foo } = services;
-
-//     assert.ok(foo);
-//     assert.strictEqual(foo.prop, 'foo');
-//   });
-// });
