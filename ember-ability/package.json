@@ -10,7 +10,7 @@
   "author": "Thomas Gossmann",
   "types": "dist/",
   "files": [
-    "addon-main.js",
+    "addon-main.cjs",
     "dist",
     "declarations"
   ],
@@ -45,7 +45,7 @@
     "ember-sweet-owner": "^0.1.1"
   },
   "peerDependencies": {
-    "ember-resources": "^5.0.0"
+    "ember-resources": ">=5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.10",

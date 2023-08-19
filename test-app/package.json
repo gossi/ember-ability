@@ -15,10 +15,16 @@
     "lint:js:fix": "eslint . --fix",
     "_lint:types": "tsc --noEmit",
     "glint": "glint",
+    "_syncPnpm": "pnpm sync-dependencies-meta-injected",
     "test": "ember test -tp 0"
   },
   "dependencies": {
     "ember-ability": "workspace:*"
+  },
+  "dependenciesMeta": {
+    "ember-ability": {
+      "injected": true
+    }
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
@@ -68,6 +74,7 @@
     "eslint": "^8.46.0",
     "eslint-plugin-ember": "^11.10.0",
     "loader.js": "^4.7.0",
+    "pnpm-sync-dependencies-meta-injected": "^0.0.9",
     "prettier": "^3.0.2",
     "qunit": "^2.19.4",
     "qunit-dom": "^2.0.0",
