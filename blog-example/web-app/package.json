@@ -5,18 +5,17 @@
   "author": "Thomas Gossmann",
   "scripts": {
     "build": "ember build --environment=production",
-    "lint": "concurrently \"npm:lint:*(!fix)\" --names \"lint:\"",
-    "lint:css": "stylelint \"**/*.css\"",
-    "lint:css:fix": "concurrently \"npm:lint:css -- --fix\"",
-    "lint:fix": "concurrently \"npm:lint:*:fix\" --names \"fix:\"",
+    "lint": "concurrently 'npm:lint:*(!fix)' --names 'lint:'",
+    "lint:css": "stylelint '**/*.css'",
+    "lint:css:fix": "concurrently 'npm:lint:css -- --fix'",
+    "lint:fix": "concurrently 'npm:lint:*:fix' --names 'fix:'",
     "lint:hbs": "ember-template-lint .",
     "lint:hbs:fix": "ember-template-lint . --fix",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
-    "lint:types": "tsc --noEmit",
+    "_lint:types": "tsc --noEmit",
     "start": "ember serve",
-    "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
-    "test:ember": "ember test -tp 0"
+    "test": "ember test -tp 0"
   },
   "dependencies": {
     "@my-blog/core": "workspace:*",

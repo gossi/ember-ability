@@ -7,8 +7,6 @@ export default class PostRoute extends Route {
   @service declare linkManager: LinkManagerService;
 
   buildPostLink = (id: string): Link => {
-    console.log('build post link', id);
-
     return this.linkManager.createLink({
       route: 'post',
       models: [id]

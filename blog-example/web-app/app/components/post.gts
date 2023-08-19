@@ -17,20 +17,24 @@ interface PostSignature {
   };
 }
 
+export const Loaded: TOC<{ Args: { post: Post } }> = <template>
+  {{#if (canEdit @post)}}
+    <aside>You can edit this post</aside>
+  {{/if}}
+
+  <article>
+    <header>
+      <h1>{{@post.title}}</h1>
+    </header>
+
+    Original Article: <a href="{{@post.link}}" target="_blank" rel="noopener noreferrer">{{@post.link}}</a>
+  </article>
+</template>
+
 const P: TOC<PostSignature> = <template>
   {{#let (RemotePost (urlFor @id)) as |request|}}
     {{#if request.value}}
-      {{#if (canEdit request.value)}}
-        <aside>You can edit this post</aside>
-      {{/if}}
-
-      <article>
-        <header>
-          <h1>{{request.value.title}}</h1>
-        </header>
-
-        Original Article: <a href="{{request.value.link}}" target="_blank">{{request.value.link}}</a>
-      </article>
+      <Loaded @post={{request.value}}/>
     {{/if}}
   {{/let}}
 </template>
@@ -39,6 +43,7 @@ export default P;
 
 declare module '@glint/environment-ember-loose/registry' {
   export default interface Registry {
+    // eslint-disable-next-line @typescript-eslint/naming-convention
     Post: typeof P;
   }
 }

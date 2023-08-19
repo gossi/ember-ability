@@ -32,6 +32,7 @@ export default Posts;
 
 declare module '@glint/environment-ember-loose/registry' {
   export default interface Registry {
+    // eslint-disable-next-line @typescript-eslint/naming-convention
     Posts: typeof Posts;
   }
 }
