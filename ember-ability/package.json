@@ -1,18 +1,24 @@
 {
   "name": "ember-ability",
   "version": "0.0.0",
-  "description": "Connect your plain guards, questions or abilities with Ember's owner.",
+  "description": "Connect your pure guards, questions or abilities with Ember's owner.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "guards",
+    "queries",
+    "abilities",
+    "questions"
   ],
-  "repository": "https://github.com/gossi/ember-sweet-owner",
   "license": "MIT",
   "author": "Thomas Gossmann",
-  "types": "dist/",
+  "repository": "https://github.com/gossi/ember-ability",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "files": [
-    "addon-main.cjs",
     "dist",
-    "declarations"
+    "declarations",
+    "addon-main.cjs"
   ],
   "exports": {
     ".": {
@@ -76,24 +82,6 @@
     "release-it": "^16.1.3",
     "rollup": "^3.27.2",
     "typescript": "^5.1.6"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
-  "release-it": {
-    "plugins": {
-      "@release-it-plugins/lerna-changelog": {
-        "infile": "CHANGELOG.md",
-        "launchEditor": false
-      }
-    },
-    "git": {
-      "tagName": "v${version}"
-    },
-    "github": {
-      "release": true,
-      "tokenRef": "GITHUB_AUTH"
-    }
   },
   "engines": {
     "node": "18.* || >= 20"
