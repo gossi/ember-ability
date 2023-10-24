@@ -74,7 +74,7 @@
     "pnpm-sync-dependencies-meta-injected": "^0.0.10",
     "prettier": "^3.0.2",
     "qunit": "^2.19.4",
-    "qunit-dom": "^2.0.0",
+    "qunit-dom": "^3.0.0",
     "typescript": "^5.1.6",
     "webpack": "^5.88.2"
   },
