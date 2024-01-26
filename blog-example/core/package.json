@@ -33,7 +33,7 @@
     "@gossi/config-prettier": "^0.6.0",
     "@jest/globals": "^29.0.3",
     "@pollyjs/core": "^6.0.6",
-    "@swc/cli": "^0.1.57",
+    "@swc/cli": "^0.3.0",
     "@swc/core": "^1.3.1",
     "@swc/jest": "^0.2.22",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
