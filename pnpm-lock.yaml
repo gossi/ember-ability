@@ -124,8 +124,8 @@ importers:
         specifier: ^0.6.0
         version: 0.6.0(stylelint@15.10.3)
       '@gossi/config-targets':
-        specifier: ^0.6.0
-        version: 0.6.0
+        specifier: ^0.7.0
+        version: 0.7.0
       '@gossi/config-template-lint':
         specifier: ^0.6.0
         version: 0.6.0(ember-template-lint@5.11.2)(prettier@3.0.2)
@@ -272,8 +272,8 @@ importers:
         specifier: ^0.6.0
         version: 0.6.0(prettier@3.0.1)
       '@gossi/config-targets':
-        specifier: ^0.6.0
-        version: 0.6.0
+        specifier: ^0.7.0
+        version: 0.7.0
       '@release-it-plugins/lerna-changelog':
         specifier: ^6.0.0
         version: 6.0.0(release-it@17.0.0)
@@ -375,8 +375,8 @@ importers:
         specifier: ^0.6.0
         version: 0.6.0(prettier@3.0.2)
       '@gossi/config-targets':
-        specifier: ^0.6.0
-        version: 0.6.0
+        specifier: ^0.7.0
+        version: 0.7.0
       '@gossi/config-template-lint':
         specifier: ^0.6.0
         version: 0.6.0(ember-template-lint@5.11.2)(prettier@3.0.2)
@@ -3193,6 +3193,11 @@ packages:
 
   /@gossi/config-targets@0.6.0:
     resolution: {integrity: sha512-HE6heljBpd3w0C2tlEsO0tU/LbZk5F0Vis3OiTnCoUvROlOukb6Y4ciqoZfunBIksTJio3PHVZWUfXlZo9cEDg==}
+    engines: {node: 16.* || >= 18.*}
+    dev: true
+
+  /@gossi/config-targets@0.7.0:
+    resolution: {integrity: sha512-X5NKuc09aktU9t7mfQSCWFc80417OcXyN+hacbkSxv+SkYj8NhatOvtL7sFzS4qgrI3vjYcdbDqylXsrWNECkA==}
     engines: {node: 16.* || >= 18.*}
     dev: true
 
