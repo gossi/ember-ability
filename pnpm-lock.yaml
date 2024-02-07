@@ -16,7 +16,7 @@ importers:
     devDependencies:
       '@gossi/config-eslint':
         specifier: ^0.7.0
-        version: 0.7.0(@babel/core@7.22.10)(@types/eslint@8.44.2)(@typescript-eslint/eslint-plugin@5.62.0)(@typescript-eslint/parser@5.62.0)(eslint-plugin-import@2.28.0)(eslint@8.47.0)(prettier@3.0.1)(typescript@5.1.6)
+        version: 0.7.0(@babel/core@7.23.9)(@types/eslint@8.44.2)(@typescript-eslint/eslint-plugin@5.62.0)(@typescript-eslint/parser@5.62.0)(eslint-plugin-import@2.28.0)(eslint@8.47.0)(prettier@3.0.1)(typescript@5.1.6)
       '@gossi/config-prettier':
         specifier: ^0.7.0
         version: 0.7.0(prettier@3.0.1)
@@ -127,8 +127,8 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0
       '@gossi/config-template-lint':
-        specifier: ^0.6.0
-        version: 0.6.0(ember-template-lint@5.11.2)(prettier@3.0.2)
+        specifier: ^0.7.0
+        version: 0.7.0(ember-template-lint@5.11.2)(prettier@3.0.2)
       '@tsconfig/ember':
         specifier: ^3.0.0
         version: 3.0.0
@@ -378,8 +378,8 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0
       '@gossi/config-template-lint':
-        specifier: ^0.6.0
-        version: 0.6.0(ember-template-lint@5.11.2)(prettier@3.0.2)
+        specifier: ^0.7.0
+        version: 0.7.0(ember-template-lint@5.11.2)(prettier@3.0.2)
       '@tsconfig/ember':
         specifier: ^3.0.0
         version: 3.0.0
@@ -3238,7 +3238,7 @@ packages:
       - typescript
     dev: true
 
-  /@gossi/config-eslint@0.7.0(@babel/core@7.22.10)(@types/eslint@8.44.2)(@typescript-eslint/eslint-plugin@5.62.0)(@typescript-eslint/parser@5.62.0)(eslint-plugin-import@2.28.0)(eslint@8.47.0)(prettier@3.0.1)(typescript@5.1.6):
+  /@gossi/config-eslint@0.7.0(@babel/core@7.23.9)(@types/eslint@8.44.2)(@typescript-eslint/eslint-plugin@5.62.0)(@typescript-eslint/parser@5.62.0)(eslint-plugin-import@2.28.0)(eslint@8.47.0)(prettier@3.0.1)(typescript@5.1.6):
     resolution: {integrity: sha512-0l45gRJFsZKvBJNPWxa1KnjK4y5FLLKl0FmEiH9Xgz9prfyuVIBOXZTUhTH8noffsN4r8gi+XqiT6LsXYyISFA==}
     engines: {node: 16.* || >= 18.*}
     peerDependencies:
@@ -3266,7 +3266,7 @@ packages:
       eslint-plugin-storybook:
         optional: true
     dependencies:
-      '@babel/core': 7.22.10
+      '@babel/core': 7.23.9
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.47.0)(typescript@5.1.6)
       '@typescript-eslint/parser': 5.62.0(eslint@8.47.0)(typescript@5.1.6)
       cosmiconfig: 9.0.0(typescript@5.1.6)
@@ -3336,8 +3336,8 @@ packages:
     engines: {node: 16.* || >= 18.*}
     dev: true
 
-  /@gossi/config-template-lint@0.6.0(ember-template-lint@5.11.2)(prettier@3.0.2):
-    resolution: {integrity: sha512-DXzHzJv/+nb6khTKGVF15ERf/Ef9e+RYQQWjyX9dc+KCLghYsSENrlyxKcXm3dknQnfUXwtYA9rdCHaroRQHLA==}
+  /@gossi/config-template-lint@0.7.0(ember-template-lint@5.11.2)(prettier@3.0.2):
+    resolution: {integrity: sha512-xXs1z4pb2SJY9FTanGL7Hn6SPDXSrLyRo3dj4w6avRX4ZS9rrp4ad5Usl0Z1PIluxfDEPAyli6wvHH5B7slDuA==}
     engines: {node: 16.* || >= 18.*}
     peerDependencies:
       ember-template-lint: ^5.0.0
