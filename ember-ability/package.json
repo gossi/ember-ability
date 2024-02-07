@@ -65,7 +65,7 @@
     "@glint/environment-ember-loose": "^1.0.2",
     "@glint/template": "^1.0.2",
     "@gossi/config-eslint": "^0.7.0",
-    "@gossi/config-prettier": "^0.6.0",
+    "@gossi/config-prettier": "^0.7.0",
     "@gossi/config-targets": "^0.7.0",
     "@release-it-plugins/lerna-changelog": "^6.0.0",
     "@rollup/plugin-babel": "^6.0.3",

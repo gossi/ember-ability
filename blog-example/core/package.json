@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@gossi/config-eslint": "^0.7.0",
-    "@gossi/config-prettier": "^0.6.0",
+    "@gossi/config-prettier": "^0.7.0",
     "@jest/globals": "^29.0.3",
     "@pollyjs/core": "^6.0.6",
     "@swc/cli": "^0.3.0",
