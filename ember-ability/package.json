@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@embroider/addon-shim": "^1.8.6",
-    "ember-sweet-owner": "^0.1.1"
+    "ember-sweet-owner": "^0.2.0"
   },
   "peerDependencies": {
     "ember-resources": ">=5.0.0"
