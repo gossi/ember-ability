@@ -15,18 +15,18 @@ interface PostsSignature {
 }
 
 const Posts: TOC<PostsSignature> = <template>
-  {{#let (RemotePosts "/api/posts") as |request|}}
+  {{#let (RemotePosts '/api/posts') as |request|}}
     {{#if request.value}}
       {{#each request.value as |post|}}
         <article>
           {{#let (@buildPostLink post.id) as |link|}}
-            <h1><a href={{link.url}} {{on "click" link.open}}>{{post.title}}</a></h1>
+            <h1><a href={{link.url}} {{on 'click' link.open}}>{{post.title}}</a></h1>
           {{/let}}
         </article>
       {{/each}}
     {{/if}}
   {{/let}}
-</template>
+</template>;
 
 export default Posts;
 

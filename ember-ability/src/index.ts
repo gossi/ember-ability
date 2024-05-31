@@ -11,16 +11,15 @@ export function ability<F extends AnyFunction>(setup: (owner: SweetOwner) => F) 
   return resourceFactory<ReturnType<F>, Parameters<F>>((...args) => {
     const CACHE = new WeakMap<Owner, F>();
 
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     return resource(({ owner }) => {
-      // setup
-      // on.cleanup(() => {});
-
       if (!CACHE.has(owner)) {
         CACHE.set(owner, setup(sweetenOwner(owner)));
       }
 
       const runAbility = CACHE.get(owner) as F;
 
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-return
       return runAbility(...args);
     });
   });
