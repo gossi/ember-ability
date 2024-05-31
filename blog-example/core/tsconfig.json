@@ -36,5 +36,8 @@
   "include": [
     "src/**/*",
     "types/**/*"
+  ],
+  "exclude": [
+    "declarations/**/*"
   ]
 }

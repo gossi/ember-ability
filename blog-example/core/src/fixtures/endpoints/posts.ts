@@ -47,7 +47,7 @@ function mockPolly(server: PollyServer, posts?: Post[]) {
  */
 export function mockPosts(server: Server, posts?: Post[]) {
   if (server instanceof PollyServer) {
-    return mockPolly(server, posts);
+    mockPolly(server, posts);
   }
 
   // here could be mirage

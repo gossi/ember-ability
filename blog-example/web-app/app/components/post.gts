@@ -27,17 +27,18 @@ export const Loaded: TOC<{ Args: { post: Post } }> = <template>
       <h1>{{@post.title}}</h1>
     </header>
 
-    Original Article: <a href="{{@post.link}}" target="_blank" rel="noopener noreferrer">{{@post.link}}</a>
+    Original Article:
+    <a href='{{@post.link}}' target='_blank' rel='noopener noreferrer'>{{@post.link}}</a>
   </article>
-</template>
+</template>;
 
 const P: TOC<PostSignature> = <template>
   {{#let (RemotePost (urlFor @id)) as |request|}}
     {{#if request.value}}
-      <Loaded @post={{request.value}}/>
+      <Loaded @post={{request.value}} />
     {{/if}}
   {{/let}}
-</template>
+</template>;
 
 export default P;
 

@@ -63,13 +63,15 @@ module('Unit | ability', function (hooks) {
         return () => services.session.user === 'Tomster';
       });
 
-      await render(<template>
-        {{#if (isTomster)}}
-          yes
-        {{else}}
-          no
-        {{/if}}
-      </template>);
+      await render(
+        <template>
+          {{#if (isTomster)}}
+            yes
+          {{else}}
+            no
+          {{/if}}
+        </template>
+      );
 
       assert.dom().hasText('yes');
 
@@ -89,13 +91,15 @@ module('Unit | ability', function (hooks) {
         return () => services.session.authenticated;
       });
 
-      await render(<template>
-        {{#if (isAuthenticated)}}
-          yes
-        {{else}}
-          no
-        {{/if}}
-      </template>);
+      await render(
+        <template>
+          {{#if (isAuthenticated)}}
+            yes
+          {{else}}
+            no
+          {{/if}}
+        </template>
+      );
 
       assert.dom().hasText('yes');
 
