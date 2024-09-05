@@ -1,6 +1,6 @@
 import { on } from '@ember/modifier';
 
-import { RemoteData } from 'ember-resources/util/remote-data';
+import { RemoteData } from 'reactiveweb/remote-data';
 
 import type { TOC } from '@ember/component/template-only';
 import type { Post } from '@my-blog/core/aggregates/blog';
