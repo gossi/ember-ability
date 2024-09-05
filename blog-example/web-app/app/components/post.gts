@@ -1,6 +1,6 @@
 import { canEdit as upstreamCanEdit, type Post } from '@my-blog/core/aggregates/blog';
 import { ability } from 'ember-ability';
-import { RemoteData } from 'ember-resources/util/remote-data';
+import { RemoteData } from 'reactiveweb/remote-data';
 
 import type { TOC } from '@ember/component/template-only';
 
