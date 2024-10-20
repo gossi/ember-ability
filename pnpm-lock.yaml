@@ -155,17 +155,17 @@ importers:
         specifier: ^8.2.0
         version: 8.2.2
       ember-auto-import:
-        specifier: ^2.6.3
-        version: 2.6.3(@glint/template@1.4.0)(webpack@5.88.2)
+        specifier: ^2.8.1
+        version: 2.8.1(@glint/template@1.4.0)(webpack@5.88.2)
       ember-cli:
-        specifier: ~5.6.0
-        version: 5.6.0
+        specifier: ~5.12.0
+        version: 5.12.0
       ember-cli-babel:
         specifier: ^8.2.0
         version: 8.2.0(@babel/core@7.24.6)
       ember-cli-dependency-checker:
         specifier: ^3.3.2
-        version: 3.3.2(ember-cli@5.6.0)
+        version: 3.3.2(ember-cli@5.12.0)
       ember-cli-htmlbars:
         specifier: ^6.3.0
         version: 6.3.0
@@ -406,17 +406,17 @@ importers:
         specifier: ^8.2.0
         version: 8.2.2
       ember-auto-import:
-        specifier: ^2.6.3
-        version: 2.6.3(@glint/template@1.4.0)(webpack@5.88.2)
+        specifier: ^2.8.1
+        version: 2.8.1(@glint/template@1.4.0)(webpack@5.88.2)
       ember-cli:
-        specifier: ~5.6.0
-        version: 5.6.0
+        specifier: ~5.12.0
+        version: 5.12.0
       ember-cli-babel:
         specifier: ^8.2.0
         version: 8.2.0(@babel/core@7.24.6)
       ember-cli-dependency-checker:
         specifier: ^3.3.2
-        version: 3.3.2(ember-cli@5.6.0)
+        version: 3.3.2(ember-cli@5.12.0)
       ember-cli-htmlbars:
         specifier: ^6.3.0
         version: 6.3.0
@@ -579,16 +579,6 @@ packages:
       eslint: 8.57.0
       eslint-visitor-keys: 2.1.0
       semver: 6.3.1
-    dev: true
-
-  /@babel/generator@7.23.0:
-    resolution: {integrity: sha512-lN85QRR+5IbYrMWM6Y4pE/noaQtg4pNiqeNGX60eqOfo6gtEj6uw/JagelB8vVztSd7R6M5n1+PQkDbHbBRU4g==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/types': 7.24.6
-      '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
-      jsesc: 2.5.2
     dev: true
 
   /@babel/generator@7.24.6:
@@ -1751,24 +1741,6 @@ packages:
       '@babel/parser': 7.24.6
       '@babel/types': 7.24.6
 
-  /@babel/traverse@7.23.0:
-    resolution: {integrity: sha512-t/QaEvyIoIkwzpiZ7aoSKK8kObQYeF7T2v+dazAYCb8SXtp58zEVkWW7zAnju8FNKNdr4ScAOEDmMItbyOmEYw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/code-frame': 7.24.6
-      '@babel/generator': 7.24.6
-      '@babel/helper-environment-visitor': 7.24.6
-      '@babel/helper-function-name': 7.24.6
-      '@babel/helper-hoist-variables': 7.24.6
-      '@babel/helper-split-export-declaration': 7.24.6
-      '@babel/parser': 7.24.6
-      '@babel/types': 7.24.6
-      debug: 4.3.4(supports-color@9.4.0)
-      globals: 11.12.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@babel/traverse@7.24.6:
     resolution: {integrity: sha512-OsNjaJwT9Zn8ozxcfoBc+RaHdj3gFmCmYoQLUII1o6ZrUwku0BMg80FoOTPx+Gi6XhcQxAYE4xyjPTo4SxEQqw==}
     engines: {node: '>=6.9.0'}
@@ -1802,15 +1774,6 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-
-  /@babel/types@7.23.0:
-    resolution: {integrity: sha512-0oIyUfKoI3mSqMvsxBdclDwxXKXAUA8v/apZbc+iSyARYou1o8ZGDxbUYyLFoW2arqS2jDGqJuZvv1d/io1axg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.24.6
-      '@babel/helper-validator-identifier': 7.24.6
-      to-fast-properties: 2.0.0
-    dev: true
 
   /@babel/types@7.24.6:
     resolution: {integrity: sha512-WaMsgi6Q8zMgMth93GvWPXkhAIEobfsIkLTacoVZoK1J0CevIPGYY2Vo5YvJGqyHqXM6P4ppOYGsIRU8MM9pFQ==}
@@ -1918,7 +1881,7 @@ packages:
       '@simple-dom/interface': 1.4.0
       broccoli-debug: 0.6.5
       broccoli-funnel: 3.0.8
-      ember-auto-import: 2.6.3(@glint/template@1.4.0)(webpack@5.88.2)
+      ember-auto-import: 2.8.1(@glint/template@1.4.0)(webpack@5.88.2)
       ember-cli-babel: 7.26.11
       ember-cli-htmlbars: 6.3.0
       ember-source: 5.6.0(@babel/core@7.24.6)(@glimmer/component@1.1.2)(@glint/template@1.4.0)(rsvp@4.8.5)(webpack@5.88.2)
@@ -6034,7 +5997,6 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       is-windows: 1.0.2
-    dev: true
 
   /big-integer@1.6.51:
     resolution: {integrity: sha512-GPEid2Y9QU1Exl1rpO9B2IPJGHPSupF5GnVIP0blYvNOMer2bTvSWs1jGOUg04hTmu67nmLsQ9TBo1puaotBHg==}
@@ -7337,7 +7299,7 @@ packages:
       through2: 3.0.2
     dev: true
 
-  /consolidate@0.16.0(mustache@4.2.0):
+  /consolidate@0.16.0(lodash@4.17.21)(mustache@4.2.0):
     resolution: {integrity: sha512-Nhl1wzCslqXYTJVDyJCu3ODohy9OfBMB5uD2BiBTzd7w+QY0lBzafkR8y8755yMYHAaMD4NuzbAw03/xzfw+eQ==}
     engines: {node: '>= 0.10.0'}
     deprecated: Please upgrade to consolidate v1.0.0+ as it has been modernized with several long-awaited fixes implemented. Maintenance is supported by Forward Email at https://forwardemail.net ; follow/watch https://github.com/ladjs/consolidate for updates and release changelog
@@ -7504,6 +7466,7 @@ packages:
         optional: true
     dependencies:
       bluebird: 3.7.2
+      lodash: 4.17.21
       mustache: 4.2.0
     dev: true
 
@@ -8136,13 +8099,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /ember-auto-import@2.6.3(@glint/template@1.4.0)(webpack@5.88.2):
-    resolution: {integrity: sha512-uLhrRDJYWCRvQ4JQ1e64XlSrqAKSd6PXaJ9ZsZI6Tlms9T4DtQFxNXasqji2ZRJBVrxEoLCRYX3RTldsQ0vNGQ==}
+  /ember-auto-import@2.8.1(@glint/template@1.4.0)(webpack@5.88.2):
+    resolution: {integrity: sha512-R5RpJmhycU6YKryzsIL/wP42r0e2PPfLRsFECoGvb1st2eEnU1Q7XyLVC1txd/XvURfu7x3Z7hKtZtYUxy61oQ==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@babel/core': 7.24.6
       '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.24.6)
       '@babel/plugin-proposal-decorators': 7.24.6(@babel/core@7.24.6)
+      '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.24.6)
+      '@babel/plugin-transform-class-static-block': 7.24.6(@babel/core@7.24.6)
       '@babel/preset-env': 7.22.10(@babel/core@7.24.6)
       '@embroider/macros': 1.13.5(@glint/template@1.4.0)
       '@embroider/shared-internals': 2.5.2
@@ -8161,10 +8126,13 @@ packages:
       fs-extra: 10.1.0
       fs-tree-diff: 2.0.1
       handlebars: 4.7.7
+      is-subdir: 1.2.0
       js-string-escape: 1.0.1
       lodash: 4.17.21
       mini-css-extract-plugin: 2.6.1(webpack@5.88.2)
+      minimatch: 3.1.2
       parse5: 6.0.1
+      pkg-entry-points: 1.1.0
       resolve: 1.22.4
       resolve-package-path: 4.0.3
       semver: 7.6.2
@@ -8255,14 +8223,14 @@ packages:
       - supports-color
     dev: true
 
-  /ember-cli-dependency-checker@3.3.2(ember-cli@5.6.0):
+  /ember-cli-dependency-checker@3.3.2(ember-cli@5.12.0):
     resolution: {integrity: sha512-PwkrW5oYsdPWwt+0Tojufmv/hxVETTjkrEdK7ANQB2VSnqpA5UcYubwpQM9ONuR2J8wyNDMwEHlqIrk/FYtBsQ==}
     engines: {node: '>= 6'}
     peerDependencies:
       ember-cli: ^3.2.0 || >=4.0.0
     dependencies:
       chalk: 2.4.2
-      ember-cli: 5.6.0
+      ember-cli: 5.12.0
       find-yarn-workspace-root: 1.2.1
       is-git-url: 1.0.0
       resolve: 1.22.4
@@ -8428,8 +8396,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /ember-cli@5.6.0:
-    resolution: {integrity: sha512-9ARiTnNgQDX6RPC37PjlEc58/e8p7pgmNu6GcmARq4iBLeTWWW+2mgw3HKoFd91ob1EdRiglskLYzgboRxtBBw==}
+  /ember-cli@5.12.0:
+    resolution: {integrity: sha512-48ZOoUZTXsav37RIYY9gyCR35yo64mhzfv5YHtTbsZZwLv/HjvTz27X0CTvkfVQaOWHYDFekxdp9ppaKz84VNA==}
     engines: {node: '>= 18'}
     hasBin: true
     dependencies:
@@ -8455,6 +8423,7 @@ packages:
       compression: 1.7.4
       configstore: 5.0.1
       console-ui: 3.1.2
+      content-tag: 2.0.1
       core-object: 3.1.5
       dag-map: 2.0.2
       diff: 5.1.0
@@ -8463,7 +8432,6 @@ packages:
       ember-cli-normalize-entity-name: 1.0.0
       ember-cli-preprocess-registry: 5.0.1
       ember-cli-string-utils: 1.1.0
-      ember-template-tag: 2.3.15
       ensure-posix-path: 1.1.1
       execa: 5.1.1
       exit: 0.1.2
@@ -8487,7 +8455,7 @@ packages:
       is-git-url: 1.0.0
       is-language-code: 3.1.0
       isbinaryfile: 5.0.0
-      lodash.template: 4.5.0
+      lodash: 4.17.21
       markdown-it: 13.0.1
       markdown-it-terminal: 0.4.0(markdown-it@13.0.1)
       minimatch: 7.4.6
@@ -8510,7 +8478,7 @@ packages:
       sort-package-json: 1.57.0
       symlink-or-copy: 1.3.1
       temp: 0.9.4
-      testem: 3.10.1
+      testem: 3.15.2
       tiny-lr: 2.0.0
       tree-sync: 2.1.0
       walk-sync: 3.0.0
@@ -8544,7 +8512,6 @@ packages:
       - just
       - liquid-node
       - liquor
-      - lodash
       - marko
       - mote
       - nunjucks
@@ -8764,7 +8731,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
-      ember-auto-import: 2.6.3(@glint/template@1.4.0)(webpack@5.88.2)
+      ember-auto-import: 2.8.1(@glint/template@1.4.0)(webpack@5.88.2)
       ember-cli-babel: 7.26.11
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
@@ -8888,17 +8855,6 @@ packages:
       slash: 3.0.0
       tmp: 0.2.1
       workerpool: 6.4.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /ember-template-tag@2.3.15:
-    resolution: {integrity: sha512-uvFt+eIE4788Yr3X1wYLrh+PYYmasmREh2IoShIrZvOW2dOfC+elSZeqeEacNhbKJUX3tT9XUKlbpYFVwvSvyA==}
-    dependencies:
-      '@babel/generator': 7.23.0
-      '@babel/traverse': 7.23.0
-      '@babel/types': 7.23.0
-      '@glimmer/syntax': 0.84.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -11756,7 +11712,6 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       better-path-resolve: 1.0.0
-    dev: true
 
   /is-symbol@1.0.4:
     resolution: {integrity: sha512-C/CPBqKWnvdcxqIARxyOh4v1UUEOCHpgDa0WYgpKDFMszcrPcffg5uhwSgPCLD2WWxmq6isisz87tzT01tuGhg==}
@@ -11798,7 +11753,6 @@ packages:
   /is-windows@1.0.2:
     resolution: {integrity: sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /is-wsl@2.2.0:
     resolution: {integrity: sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==}
@@ -12752,20 +12706,12 @@ packages:
   /lodash._reinterpolate@3.0.0:
     resolution: {integrity: sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==}
 
-  /lodash.assignin@4.2.0:
-    resolution: {integrity: sha512-yX/rx6d/UTVh7sSVWVSIMjfnz95evAgDFdb1ZozC35I9mSFCkmzptOzevxjgbQUsc78NR44LVHWjsoMQXy9FDg==}
-    dev: true
-
   /lodash.camelcase@4.3.0:
     resolution: {integrity: sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==}
     dev: true
 
   /lodash.capitalize@4.2.1:
     resolution: {integrity: sha512-kZzYOKspf8XVX5AvmQF94gQW0lejFVgb80G85bU4ZWzoJ6C03PQg3coYAUpSTpQWelrZELd3XWgHzw4Ck5kaIw==}
-    dev: true
-
-  /lodash.castarray@4.4.0:
-    resolution: {integrity: sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==}
     dev: true
 
   /lodash.clonedeep@4.5.0:
@@ -12783,10 +12729,6 @@ packages:
 
   /lodash.escaperegexp@4.1.2:
     resolution: {integrity: sha512-TM9YBvyC84ZxE3rgfefxUWiQKLilstD6k7PTGt6wfbtXF8ixIJLOL3VYyV/z+ZiPLsVxAsKAFVwWlWeb2Y8Yyw==}
-    dev: true
-
-  /lodash.find@4.6.0:
-    resolution: {integrity: sha512-yaRZoAV3Xq28F1iafWN1+a0rflOej93l1DQUejs3SZ41h2O9UJBoS9aueGjPDgAl4B6tPC0NuuchLKaDQQ3Isg==}
     dev: true
 
   /lodash.flatten@3.0.2:
@@ -13502,6 +13444,12 @@ packages:
 
   /mkdirp@1.0.4:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: true
+
+  /mkdirp@3.0.1:
+    resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
     engines: {node: '>=10'}
     hasBin: true
     dev: true
@@ -14413,6 +14361,9 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
+
+  /pkg-entry-points@1.1.0:
+    resolution: {integrity: sha512-9vL2T/he5Kb97GVY+V3Ih4jCC1lF3PQGIDUJIUqKM4Q6twmhrUSAa0OFj+kb8IEs4wYzEgB6kcc4oYy21kZnQw==}
 
   /pkg-up@2.0.0:
     resolution: {integrity: sha512-fjAPuiws93rm7mPUu21RdBnkeZNrbfCFCwfAhPWY+rR3zG0ubpe5cEReHOw5fIbfmsxEV/g2kSxGTATY3Bpnwg==}
@@ -16525,8 +16476,8 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /testem@3.10.1:
-    resolution: {integrity: sha512-42c4e7qlAelwMd8O3ogtVGRbgbr6fJnX6H51ACOIG1V1IjsKPlcQtxPyOwaL4iikH22Dfh+EyIuJnMG4yxieBQ==}
+  /testem@3.15.2:
+    resolution: {integrity: sha512-mRzqZktqTCWi/rUP/RQOKXvMtuvY3lxuzBVb1xGXPnRNGMEj/1DaLGn6X447yOsz6SlWxSsZfcNuiE7fT1MOKg==}
     engines: {node: '>= 7.*'}
     hasBin: true
     dependencies:
@@ -16536,19 +16487,15 @@ packages:
       charm: 1.0.2
       commander: 2.20.3
       compression: 1.7.4
-      consolidate: 0.16.0(mustache@4.2.0)
+      consolidate: 0.16.0(lodash@4.17.21)(mustache@4.2.0)
       execa: 1.0.0
       express: 4.18.2
       fireworm: 0.7.2
       glob: 7.2.3
       http-proxy: 1.18.1
       js-yaml: 3.14.1
-      lodash.assignin: 4.2.0
-      lodash.castarray: 4.4.0
-      lodash.clonedeep: 4.5.0
-      lodash.find: 4.6.0
-      lodash.uniqby: 4.7.0
-      mkdirp: 1.0.4
+      lodash: 4.17.21
+      mkdirp: 3.0.1
       mustache: 4.2.0
       node-notifier: 10.0.1
       npmlog: 6.0.2
@@ -16586,7 +16533,6 @@ packages:
       - just
       - liquid-node
       - liquor
-      - lodash
       - marko
       - mote
       - nunjucks
