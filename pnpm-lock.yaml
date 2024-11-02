@@ -188,8 +188,8 @@ importers:
         specifier: ^11.0.1
         version: 11.0.1(ember-source@5.12.0)
       ember-resources:
-        specifier: ^6.3.1
-        version: 6.4.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0)
+        specifier: ^6.5.1
+        version: 6.5.1(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0)
       ember-source:
         specifier: ~5.12.0
         version: 5.12.0(@glimmer/component@1.1.2)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.88.2)
@@ -300,8 +300,8 @@ importers:
         specifier: ^8.2.2
         version: 8.2.2
       ember-resources:
-        specifier: ^6.3.1
-        version: 6.4.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0)
+        specifier: ^6.5.1
+        version: 6.5.1(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0)
       ember-source:
         specifier: ~5.12.0
         version: 5.12.0(@glimmer/component@1.1.2)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.88.2)
@@ -328,7 +328,7 @@ importers:
     dependencies:
       ember-ability:
         specifier: workspace:*
-        version: file:ember-ability(@glint/template@1.5.0)(ember-resources@6.4.0)
+        version: file:ember-ability(@glint/template@1.5.0)(ember-resources@6.5.1)
     devDependencies:
       '@babel/core':
         specifier: ^7.26.0
@@ -436,8 +436,8 @@ importers:
         specifier: ^11.0.1
         version: 11.0.1(ember-source@5.12.0)
       ember-resources:
-        specifier: ^6.4.0
-        version: 6.4.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0)
+        specifier: ^6.5.1
+        version: 6.5.1(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0)
       ember-source:
         specifier: ~5.12.0
         version: 5.12.0(@glimmer/component@1.1.2)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.88.2)
@@ -8615,8 +8615,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-resources@6.4.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0):
-    resolution: {integrity: sha512-F5tfwhu8yRrPsMQk5nJWAZJuCi1xvGaTHp3izT+8rwuBXZSvjJAW+EapWNhKR7SYmtail9cPVwh37lcDd6HLXQ==}
+  /ember-resources@6.5.1(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0):
+    resolution: {integrity: sha512-8eEdbSE0sioqjpB2CWw/dKF4Ftfe9tbebuSUfMDBmP3xxTIvxTDbvDnbd8A0IbQ0z/iQt6Va+/5cadzvkbMZtg==}
     peerDependencies:
       '@ember/test-waiters': ^3.0.0
       '@glimmer/component': ^1.1.2
@@ -17768,7 +17768,7 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  file:ember-ability(@glint/template@1.5.0)(ember-resources@6.4.0):
+  file:ember-ability(@glint/template@1.5.0)(ember-resources@6.5.1):
     resolution: {directory: ember-ability, type: directory}
     id: file:ember-ability
     name: ember-ability
@@ -17777,7 +17777,7 @@ packages:
       ember-resources: '>=5.0.0'
     dependencies:
       '@embroider/addon-shim': 1.8.7
-      ember-resources: 6.4.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0)
+      ember-resources: 6.5.1(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@5.12.0)
       ember-sweet-owner: 0.2.0(@glint/template@1.5.0)
     transitivePeerDependencies:
       - '@glint/template'
