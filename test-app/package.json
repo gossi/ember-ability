@@ -75,7 +75,7 @@
     "prettier": "^3.2.5",
     "qunit": "^2.22.0",
     "qunit-dom": "^3.2.1",
-    "typescript": "^5.1.6",
+    "typescript": "^5.6.3",
     "webpack": "^5.88.2"
   },
   "ember": {
