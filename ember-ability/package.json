@@ -80,7 +80,7 @@
     "eslint-plugin-ember": "^12.1.1",
     "prettier": "^3.2.5",
     "release-it": "^17.10.0",
-    "rollup": "^4.0.0",
+    "rollup": "^4.24.3",
     "typescript": "^5.1.6"
   },
   "engines": {
