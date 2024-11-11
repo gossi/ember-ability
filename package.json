@@ -11,7 +11,7 @@
     "clean:node-modules": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^9.1.0"
   },
   "volta": {
     "node": "22.11.0"
