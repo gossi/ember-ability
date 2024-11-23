@@ -186,7 +186,7 @@ importers:
         version: 8.1.1(@ember/test-helpers@4.0.4)(@glint/template@1.5.0)(ember-source@6.0.1)(qunit@2.22.0)
       ember-resolver:
         specifier: ^13.0.2
-        version: 13.0.2(ember-source@6.0.1)
+        version: 13.1.0(ember-source@6.0.1)
       ember-resources:
         specifier: ^6.5.1
         version: 6.5.1(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1)
@@ -433,8 +433,8 @@ importers:
         specifier: ^8.1.1
         version: 8.1.1(@ember/test-helpers@4.0.4)(@glint/template@1.5.0)(ember-source@6.0.1)(qunit@2.22.0)
       ember-resolver:
-        specifier: ^13.0.2
-        version: 13.0.2(ember-source@6.0.1)
+        specifier: ^13.1.0
+        version: 13.1.0(ember-source@6.0.1)
       ember-resources:
         specifier: ^6.5.1
         version: 6.5.1(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1)
@@ -8554,8 +8554,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-resolver@13.0.2(ember-source@6.0.1):
-    resolution: {integrity: sha512-9G8CVjjI4Q6vx2+FYg8YeLu+/fP4eBL/1+qp5bzwtXQ7G3xkg0YRpcufIdsBjf5K2SUStU83qhNH2O6aanf3nw==}
+  /ember-resolver@13.1.0(ember-source@6.0.1):
+    resolution: {integrity: sha512-t/PjXLCl5tM9EQXGIFoBgHiA41HkLJpfo17Nud5Cy9eyUPGcnsMjWJqQ+O5QHA0E63Sp+zTn4y/RS5Tu2v2ydg==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       ember-source: ^4.12.0 || >= 5.0.0
