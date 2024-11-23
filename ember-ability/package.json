@@ -81,7 +81,7 @@
     "prettier": "^3.2.5",
     "release-it": "^17.10.0",
     "rollup": "^4.27.4",
-    "typescript": "^5.6.3"
+    "typescript": "^5.7.2"
   },
   "engines": {
     "node": "18.* || >= 20"
