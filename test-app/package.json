@@ -73,8 +73,8 @@
     "loader.js": "^4.7.0",
     "pnpm-sync-dependencies-meta-injected": "^0.0.14",
     "prettier": "^3.2.5",
-    "qunit": "^2.22.0",
-    "qunit-dom": "^3.3.0",
+    "qunit": "^2.23.0",
+    "qunit-dom": "^3.4.0",
     "typescript": "^5.7.2",
     "webpack": "^5.96.1"
   },

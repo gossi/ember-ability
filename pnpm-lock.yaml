@@ -183,7 +183,7 @@ importers:
         version: 3.0.1(ember-source@6.0.1)
       ember-qunit:
         specifier: ^8.1.1
-        version: 8.1.1(@ember/test-helpers@4.0.4)(@glint/template@1.5.0)(ember-source@6.0.1)(qunit@2.22.0)
+        version: 8.1.1(@ember/test-helpers@4.0.4)(@glint/template@1.5.0)(ember-source@6.0.1)(qunit@2.23.0)
       ember-resolver:
         specifier: ^13.0.2
         version: 13.1.0(ember-source@6.0.1)
@@ -215,11 +215,11 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5
       qunit:
-        specifier: ^2.22.0
-        version: 2.22.0
+        specifier: ^2.23.0
+        version: 2.23.0
       qunit-dom:
         specifier: ^3.3.0
-        version: 3.3.0
+        version: 3.4.0
       stylelint:
         specifier: ^16.6.1
         version: 16.11.0(typescript@5.7.2)
@@ -431,7 +431,7 @@ importers:
         version: 3.0.1(ember-source@6.0.1)
       ember-qunit:
         specifier: ^8.1.1
-        version: 8.1.1(@ember/test-helpers@4.0.4)(@glint/template@1.5.0)(ember-source@6.0.1)(qunit@2.22.0)
+        version: 8.1.1(@ember/test-helpers@4.0.4)(@glint/template@1.5.0)(ember-source@6.0.1)(qunit@2.23.0)
       ember-resolver:
         specifier: ^13.1.0
         version: 13.1.0(ember-source@6.0.1)
@@ -469,11 +469,11 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5
       qunit:
-        specifier: ^2.22.0
-        version: 2.22.0
+        specifier: ^2.23.0
+        version: 2.23.0
       qunit-dom:
-        specifier: ^3.3.0
-        version: 3.3.0
+        specifier: ^3.4.0
+        version: 3.4.0
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -8535,7 +8535,7 @@ packages:
       ember-source: 6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.96.1)
     dev: true
 
-  /ember-qunit@8.1.1(@ember/test-helpers@4.0.4)(@glint/template@1.5.0)(ember-source@6.0.1)(qunit@2.22.0):
+  /ember-qunit@8.1.1(@ember/test-helpers@4.0.4)(@glint/template@1.5.0)(ember-source@6.0.1)(qunit@2.23.0):
     resolution: {integrity: sha512-nT+6s74j3BKNn+QQY/hINC3Xw3kn0NF0cU9zlgVQmCBWoyis1J24xWrY2LFOMThPmF6lHqcrUb5JwvBD4BXEXg==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
@@ -8547,7 +8547,7 @@ packages:
       '@embroider/macros': 1.16.9(@glint/template@1.5.0)
       ember-cli-test-loader: 3.1.0
       ember-source: 6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.96.1)
-      qunit: 2.22.0
+      qunit: 2.23.0
       qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
       - '@glint/template'
@@ -14530,8 +14530,8 @@ packages:
       rimraf: 2.7.1
       underscore.string: 3.3.6
 
-  /qunit-dom@3.3.0:
-    resolution: {integrity: sha512-sGPhNbZ/3gPbH3rp7PxnzqXuh6cyN/AG/vO/X9k0IYlsoBLi83MU6PdtSw/KiWLV8X/32jxD6fbeP9vjNAY4Dw==}
+  /qunit-dom@3.4.0:
+    resolution: {integrity: sha512-N5PYbJ20RD3JZN4whINdl7dDfxScUy7eNuO8IwUtBWC7d6SH+BqtBqVZdRn9evxLQVzuask6OGvMy4gdpiCceg==}
     dependencies:
       dom-element-descriptors: 0.5.1
     dev: true
@@ -14540,8 +14540,8 @@ packages:
     resolution: {integrity: sha512-vdMVVo6ecdCkWttMTKeyq1ZTLGHcA6zdze2zhguNuc3ritlJMhOXY5RDseqazOwqZVfCg3rtlmL3fMUyIzUyFQ==}
     dev: true
 
-  /qunit@2.22.0:
-    resolution: {integrity: sha512-wPYvAvpjTL3zlUeyCX75T8gfZfdVXZa8y1EVkGe/XZNORIsCH/WI2X8R2KlemT921X9EKSZUL6CLGSPC7Ks08g==}
+  /qunit@2.23.0:
+    resolution: {integrity: sha512-r4hCsZqUvSyuUUHbCt2kYW1AECD7KTdhKW9mSUuCu51UO44o6oz6L+F3coeryj79MWF7o+S+szJ9Icrr9yalvQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
