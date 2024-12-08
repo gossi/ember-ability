@@ -68,7 +68,7 @@
     "loader.js": "^4.7.0",
     "msw": "^1.2.3",
     "prettier": "^3.2.5",
-    "qunit": "^2.23.0",
+    "qunit": "^2.23.1",
     "qunit-dom": "^3.3.0",
     "stylelint": "^16.6.1",
     "typescript": "^5.7.2",
