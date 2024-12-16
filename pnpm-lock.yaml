@@ -285,8 +285,8 @@ importers:
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.26.0)(rollup@4.28.1)
       '@rollup/plugin-node-resolve':
-        specifier: ^15.3.1
-        version: 15.3.1(rollup@4.28.1)
+        specifier: ^16.0.0
+        version: 16.0.0(rollup@4.28.1)
       '@tsconfig/ember':
         specifier: ^3.0.8
         version: 3.0.8
@@ -4308,8 +4308,8 @@ packages:
       - supports-color
     dev: true
 
-  /@rollup/plugin-node-resolve@15.3.1(rollup@4.28.1):
-    resolution: {integrity: sha512-tgg6b91pAybXHJQMAAwW9VuWBO6Thi+q7BCNARLwSqlmsHz0XYURtGvh/AuwSADXSI4h/2uHbs7s4FzlZDGSGA==}
+  /@rollup/plugin-node-resolve@16.0.0(rollup@4.28.1):
+    resolution: {integrity: sha512-0FPvAeVUT/zdWoO0jnb/V5BlBsUSNfkIOtFHzMO4H9MOklrmQFY6FduVHKucNb/aTFxvnGhj4MNj/T1oNdDfNg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.78.0||^3.0.0||^4.0.0
