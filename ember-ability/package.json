@@ -18,7 +18,10 @@
   "files": [
     "dist",
     "declarations",
-    "addon-main.cjs"
+    "addon-main.cjs",
+    "LICENSE.md",
+    "CHANGELOG.md",
+    "README.md"
   ],
   "exports": {
     ".": {
@@ -41,7 +44,6 @@
     "lint:js:fix": "eslint . --fix",
     "lint:types": "glint",
     "prepack": "pnpm build",
-    "release": "release-it",
     "start": "concurrently 'npm:start:*'",
     "start:js": "rollup --config -w --no-watch.clearScreen",
     "start:types": "glint --declaration -w"
@@ -67,7 +69,6 @@
     "@gossi/config-eslint": "^0.12.0",
     "@gossi/config-prettier": "^0.8.0",
     "@gossi/config-targets": "^0.9.0",
-    "@release-it-plugins/lerna-changelog": "^7.0.0",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@tsconfig/ember": "^3.0.8",
@@ -79,7 +80,6 @@
     "eslint": "^8.56.0",
     "eslint-plugin-ember": "^12.1.1",
     "prettier": "^3.2.5",
-    "release-it": "^17.10.0",
     "rollup": "^4.29.1",
     "typescript": "^5.7.2"
   },
