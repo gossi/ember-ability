@@ -12,6 +12,7 @@ export default class ApplicationController extends Controller {
 
   @action
   switchUser(user: User) {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     this.user.currentUser = user;
   }
 
