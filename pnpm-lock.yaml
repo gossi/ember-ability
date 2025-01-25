@@ -3,7 +3,6 @@ lockfileVersion: '9.0'
 settings:
   autoInstallPeers: false
   excludeLinksFromLockfile: false
-  injectWorkspacePackages: true
 
 importers:
 
@@ -75,10 +74,10 @@ importers:
     dependencies:
       '@my-blog/core':
         specifier: workspace:*
-        version: file:blog-example/core(@glint/template@1.5.0)(ember-resources@6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)))
+        version: link:../core
       ember-ability:
         specifier: workspace:*
-        version: file:ember-ability(@glint/template@1.5.0)(ember-resources@6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)))
+        version: link:../../ember-ability
     devDependencies:
       '@babel/core':
         specifier: ^7.26.0
@@ -193,7 +192,7 @@ importers:
         version: 13.1.0(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))
       ember-resources:
         specifier: ^6.5.1
-        version: 6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))
+        version: 6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5))
       ember-source:
         specifier: ~6.0.1
         version: 6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)
@@ -302,7 +301,7 @@ importers:
         version: 9.1.0
       ember-resources:
         specifier: ^6.5.1
-        version: 6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))
+        version: 6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5))
       ember-source:
         specifier: ~6.0.1
         version: 6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)
@@ -326,7 +325,7 @@ importers:
     dependencies:
       ember-ability:
         specifier: workspace:*
-        version: file:ember-ability(@glint/template@1.5.0)(ember-resources@6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)))
+        version: link:../ember-ability
     devDependencies:
       '@babel/core':
         specifier: ^7.26.0
@@ -435,7 +434,7 @@ importers:
         version: 13.1.0(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))
       ember-resources:
         specifier: ^6.5.1
-        version: 6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))
+        version: 6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5))
       ember-source:
         specifier: ~6.0.1
         version: 6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)
@@ -1640,10 +1639,6 @@ packages:
   '@mswjs/interceptors@0.17.10':
     resolution: {integrity: sha512-N8x7eSLGcmUFNWZRxT1vsHvypzIRgQYdG0rJey/rZCy6zT/30qDt8Joj7FxzGNLSwXbeZqJOMqDurp7ra4hgbw==}
     engines: {node: '>=14'}
-
-  '@my-blog/core@file:blog-example/core':
-    resolution: {directory: blog-example/core, type: directory}
-    engines: {node: '>= 18'}
 
   '@napi-rs/nice-android-arm-eabi@1.0.1':
     resolution: {integrity: sha512-5qpvOu5IGwDo7MEKVqqyAxF90I6aLj4n07OzpARdgDRfz8UbBztTByBp0RC59r3J1Ij8uzYi6jI7r5Lws7nn6w==}
@@ -3917,12 +3912,6 @@ packages:
 
   electron-to-chromium@1.5.47:
     resolution: {integrity: sha512-zS5Yer0MOYw4rtK2iq43cJagHZ8sXN0jDHDKzB+86gSBSAI4v07S97mcq+Gs2vclAxSh1j7vOAHxSVgduiiuVQ==}
-
-  ember-ability@file:ember-ability:
-    resolution: {directory: ember-ability, type: directory}
-    engines: {node: 18.* || >= 20}
-    peerDependencies:
-      ember-resources: '>=5.0.0'
 
   ember-async-data@1.0.2:
     resolution: {integrity: sha512-HCnQnnPCV5A7FADoW6/e+48PVxQ1ElatxZeJJoTb2UuklMHK8CpdAvEILVC0qtEeyIEbcG/LyOIxuHK0ja63zQ==}
@@ -10177,15 +10166,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@my-blog/core@file:blog-example/core(@glint/template@1.5.0)(ember-resources@6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)))':
-    dependencies:
-      ember-ability: file:ember-ability(@glint/template@1.5.0)(ember-resources@6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)))
-    transitivePeerDependencies:
-      - '@glint/template'
-      - ember-polaris-service
-      - ember-resources
-      - supports-color
-
   '@napi-rs/nice-android-arm-eabi@1.0.1':
     optional: true
 
@@ -12705,17 +12685,7 @@ snapshots:
 
   electron-to-chromium@1.5.47: {}
 
-  ember-ability@file:ember-ability(@glint/template@1.5.0)(ember-resources@6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))):
-    dependencies:
-      '@embroider/addon-shim': 1.9.0
-      ember-resources: 6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))
-      ember-sweet-owner: 0.2.0(@glint/template@1.5.0)
-    transitivePeerDependencies:
-      - '@glint/template'
-      - ember-polaris-service
-      - supports-color
-
-  ember-async-data@1.0.2(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)):
+  ember-async-data@1.0.2(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)):
     dependencies:
       '@ember/test-waiters': 3.1.0
       '@embroider/addon-shim': 1.9.0
@@ -13126,14 +13096,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-resources@6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)):
+  ember-resources@6.5.1(@ember/test-waiters@3.1.0)(@glimmer/component@2.0.0)(@glimmer/tracking@1.1.2)(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)):
     dependencies:
       '@babel/runtime': 7.26.0
       '@embroider/addon-shim': 1.9.0
       '@embroider/macros': 1.16.10(@glint/template@1.5.0)
       '@glimmer/tracking': 1.1.2
       '@glint/template': 1.5.0
-      ember-async-data: 1.0.2(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))
+      ember-async-data: 1.0.2(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5))
       ember-source: 6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1)
     optionalDependencies:
       '@ember/test-waiters': 3.1.0

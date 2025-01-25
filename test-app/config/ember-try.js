@@ -16,6 +16,14 @@ module.exports = async function () {
             'ember-resolver': '^8.0.0',
             'ember-source': '~3.28.12',
             'ember-qunit': '^6.2.0'
+          },
+          dependenciesMeta: {
+            'ember-ability': {
+              injected: true
+            }
+          },
+          scripts: {
+            prepare: 'pnpm build'
           }
         }
       },
@@ -24,6 +32,14 @@ module.exports = async function () {
         npm: {
           devDependencies: {
             'ember-source': '~4.4.0'
+          },
+          dependenciesMeta: {
+            'ember-ability': {
+              injected: true
+            }
+          },
+          scripts: {
+            prepare: 'pnpm build'
           }
         }
       },
@@ -32,6 +48,14 @@ module.exports = async function () {
         npm: {
           devDependencies: {
             'ember-source': '~4.8.0'
+          },
+          dependenciesMeta: {
+            'ember-ability': {
+              injected: true
+            }
+          },
+          scripts: {
+            prepare: 'pnpm build'
           }
         }
       },
