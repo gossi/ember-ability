@@ -23,6 +23,6 @@ runs:
       run: pnpm install
       shell: bash
 
-    - name: Build package
-      run: pnpm -r --parallel --aggregate-output run build
+    - name: Build
+      run: pnpm build
       shell: bash

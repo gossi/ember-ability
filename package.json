@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Thomas Gossmann",
   "scripts": {
-    "build": "pnpm --filter ember-link build",
+    "build": "pnpm -r --parallel --aggregate-output run build",
     "clean": "pnpm run '/^clean:.*/'",
     "clean:declarations": "find . -not \\( -path './node_modules' -type d -prune \\) -name 'declarations' -type d -exec rm -rf '{}' +",
     "clean:dist": "find . -not \\( -path './node_modules' -type d -prune \\) -name 'dist' -type d -exec rm -rf '{}' +",
