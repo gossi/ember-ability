@@ -8,7 +8,11 @@
     "clean": "concurrently 'npm:clean:*'",
     "clean:dist": "find . -not \\( -path './node_modules' -type d -prune \\) -name 'dist' -type d -exec rm -rf '{}' +",
     "clean:declarations": "find . -not \\( -path './node_modules' -type d -prune \\) -name 'declarations' -type d -exec rm -rf '{}' +",
-    "clean:node-modules": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+    "clean:node-modules": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
+    "lint:hbs": "pnpm run -r --parallel  --aggregate-output lint:hbs",
+    "lint:js": "pnpm run -r --parallel  --aggregate-output lint:js",
+    "lint:types": "pnpm run -r --parallel  --aggregate-output lint:types",
+    "test": "pnpm run -r --parallel  --aggregate-output test"
   },
   "devDependencies": {
     "concurrently": "^9.1.0"

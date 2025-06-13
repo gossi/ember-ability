@@ -1,4 +1,3 @@
 packages:
   - ember-ability/
-  - blog-example/*
-  - test-app/
+  # - blog-example/*
