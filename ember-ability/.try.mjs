@@ -36,13 +36,19 @@ module.exports = async function (defaults) {
 }
 
 function compatEmberScenario(name, emberVersion) {
+  let cliVersion = '^5.12.0';
+
+  if (emberVersion.includes('3.28')) {
+    cliVersion = '^4.12.0';
+  }
+
   return {
     name,
     npm: {
       devDependencies: {
         'ember-source': emberVersion,
         '@embroider/compat': '^4.0.3',
-        'ember-cli': '^5.12.0',
+        'ember-cli': cliVersion,
         'ember-auto-import': '^2.10.0',
         '@ember/optional-features': '^2.2.0'
       }
