@@ -39,8 +39,10 @@ jobs:
       - run: pnpm run -r --parallel --aggregate-output lint:types
 
   test:
-    name: Locked Deps
+    name: Test
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - uses: actions/checkout@v4
       - name: Setup
