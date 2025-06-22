@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = require('@gossi/config-prettier');
+export { default } from '@gossi/config-prettier';

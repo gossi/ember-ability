@@ -1,4 +1,3 @@
 packages:
   - ember-ability/
-  # - blog-example/*
-  - blog-example/core/
+  - blog-example/*

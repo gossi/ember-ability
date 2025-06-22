@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = require('@gossi/config-template-lint');
+export { default } from '@gossi/config-template-lint';

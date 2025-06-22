@@ -1,31 +1,31 @@
 {
-  "extends": "@tsconfig/ember/tsconfig.json",
-  "compilerOptions": {
-    // The combination of `baseUrl` with `paths` allows Ember's classic package
-    // layout, which is not resolvable with the Node resolution algorithm, to
-    // work with TypeScript.
-    "baseUrl": ".",
-    "paths": {
-      "@my-blog/web-app/tests/*": [
-        "tests/*"
-      ],
-      "@my-blog/web-app/*": [
-        "app/*"
-      ],
-      "*": [
-        "types/*"
-      ]
-    }
-  },
+  "extends": "@ember/app-tsconfig",
   "include": [
-    "app/**/*",
-    "tests/**/*",
-    "types/**/*"
+    "src", "tests", "types"
   ],
   "glint": {
     "environment": [
       "ember-loose",
       "ember-template-imports"
     ]
-  }
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "paths": {
+      "#/*": [
+        "./src/*"
+      ],
+      // "@my-blog/web-app/tests/*": [
+      //   "./tests/*"
+      // ],
+      "*": [
+        "./types/*"
+      ]
+    },
+    "types": [
+      "ember-source/types",
+      "@embroider/core/virtual",
+      "vite/client"
+    ]
+  },
 }
