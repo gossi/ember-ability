@@ -17,6 +17,7 @@ export function ability<F extends AnyFunction>(setup: (owner: SweetOwner) => F) 
         CACHE.set(owner, setup(sweetenOwner(owner)));
       }
 
+      // eslint-disable-next-line @typescript-eslint/non-nullable-type-assertion-style
       const runAbility = CACHE.get(owner) as F;
 
       // eslint-disable-next-line @typescript-eslint/no-unsafe-return

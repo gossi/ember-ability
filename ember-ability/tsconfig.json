@@ -1,21 +1,11 @@
 {
-  "extends": "@tsconfig/ember/tsconfig.json",
-  "compilerOptions": {
-    "declarationDir": "./declarations",
-    "paths": {
-      "*": [
-        "./types/*"
-      ]
-    },
-    "skipLibCheck": true
-  },
-  "include": [
-    "src/**/*",
-    "types/**/*"
-  ],
+  "extends": "@ember/app-tsconfig",
   "glint": {
-    "environment": [
-      "ember-loose"
-    ]
+    "environment": ["ember-loose", "ember-template-imports"]
+  },
+  "include": ["src", "tests", "types"],
+  "compilerOptions": {
+    "rootDir": ".",
+    "types": ["ember-source/types", "vite/client", "@embroider/core/virtual"]
   }
 }

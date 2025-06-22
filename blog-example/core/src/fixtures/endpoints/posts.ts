@@ -1,14 +1,6 @@
-import { PollyServer } from '@pollyjs/core';
+import { EMBER_AND_STORYBOOK, EMBER_TIMES_206, FRONTEND_COMPONENT_ARCHITECTURE } from '../posts';
 
-import {
-  EMBER_AND_STORYBOOK,
-  EMBER_TIMES_206,
-  FRONTEND_COMPONENT_ARCHITECTURE
-} from '../aggregates/posts';
-
-import type { Post } from '../../aggregates/blog';
-
-type Server = PollyServer;
+import type { Post } from '../../domain-objects/blog';
 
 /**
  * Returns the data for the `GET /posts` endpoint
@@ -24,31 +16,4 @@ export function dataForPosts(posts?: Post[]) {
 
   // If this would be JSON:API
   // return { data };
-}
-
-/**
- * Mocks the endpoint for polly
- *
- * @param server
- * @param posts preferred data
- */
-function mockPolly(server: PollyServer, posts?: Post[]) {
-  server.get(`/posts`).intercept((_req, res) => {
-    res.json(dataForPosts(posts));
-  });
-}
-
-/**
- * Mock `GET /posts` endpoint for the given server
- *
- * @param server
- * @param posts
- * @returns
- */
-export function mockPosts(server: Server, posts?: Post[]) {
-  if (server instanceof PollyServer) {
-    mockPolly(server, posts);
-  }
-
-  // here could be mirage
 }
