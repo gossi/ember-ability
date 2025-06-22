@@ -70,7 +70,7 @@
     "prettier": "^3.2.5",
     "qunit": "^2.23.1",
     "qunit-dom": "^3.3.0",
-    "stylelint": "^16.6.1",
+    "stylelint": "^16.21.0",
     "typescript": "^5.7.2",
     "webpack": "^5.97.1"
   },
