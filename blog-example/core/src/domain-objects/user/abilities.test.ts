@@ -1,7 +1,7 @@
-import { describe, expect, test } from '@jest/globals';
+import { describe, expect, test } from 'vitest';
 
-import { ADMIN, GOSSI } from '../../../fixtures/aggregates/users';
-import { isAdmin } from './user';
+import { ADMIN, GOSSI } from '../../fixtures';
+import { isAdmin } from './abilities';
 
 describe('isAdmin', () => {
   test('gossi is no admin', () => {

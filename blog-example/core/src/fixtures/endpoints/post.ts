@@ -1,6 +1,6 @@
 import { PollyServer } from '@pollyjs/core';
 
-import type { Post } from '../../aggregates/blog';
+import type { Post } from '../../domain-objects/blog';
 
 type Server = PollyServer;
 

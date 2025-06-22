@@ -1,12 +1,8 @@
 import { PollyServer } from '@pollyjs/core';
 
-import {
-  EMBER_AND_STORYBOOK,
-  EMBER_TIMES_206,
-  FRONTEND_COMPONENT_ARCHITECTURE
-} from '../aggregates/posts';
+import { EMBER_AND_STORYBOOK, EMBER_TIMES_206, FRONTEND_COMPONENT_ARCHITECTURE } from '../posts';
 
-import type { Post } from '../../aggregates/blog';
+import type { Post } from '../../domain-objects/blog';
 
 type Server = PollyServer;
 
