@@ -10,8 +10,8 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: 'ember-addon-v2',
-        replacement: `${__dirname}/src`
+        find: 'ember-ability',
+        replacement: `${import.meta.dirname}/src`
       }
     ]
   },

@@ -1,12 +1,11 @@
 {
-  "version": "0.0.0",
   "private": true,
   "repository": "https://github.com/gossi/ember-ability",
   "license": "MIT",
   "author": "Thomas Gossmann",
   "scripts": {
     "build": "turbo run build",
-    "clean": "concurrently 'npm:clean:*'",
+    "clean": "pnpm run '/^clean:(?!.*(fix)).*$/'",
     "clean:dist": "find . -not \\( -path './node_modules' -type d -prune \\) -name 'dist' -type d -exec rm -rf '{}' +",
     "clean:declarations": "find . -not \\( -path './node_modules' -type d -prune \\) -name 'declarations' -type d -exec rm -rf '{}' +",
     "clean:node-modules": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
@@ -16,7 +15,6 @@
     "test": "pnpm run -r --parallel  --aggregate-output test"
   },
   "devDependencies": {
-    "concurrently": "^9.1.0",
     "turbo": "^2.5.4"
   },
   "packageManager": "pnpm@10.2.1",

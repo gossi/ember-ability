@@ -1,6 +1,6 @@
 {
   "extends": "@ember/library-tsconfig",
-  "include": ["src/**/*", "tests/**/*"],
+  "include": ["./src"],
   "glint": {
     "environment": ["ember-loose", "ember-template-imports"]
   },
@@ -17,8 +17,7 @@
       This way, we can have simpler `package.json#exports` that matches
       imports to files on disk
     */
-    "rootDir": ".",
-    "baseUrl": "./src",
+    "rootDir": "./src",
     "types": ["ember-source/types"]
   }
 }

@@ -12,7 +12,7 @@ if (typeof module !== 'undefined') {
       Chrome: {
         ci: [
           // --no-sandbox is needed when running Chrome inside a container
-          process.env.CI ? '--no-sandbox' : null,
+          process.env.CI ? '--no-sandbox' : undefined,
           '--headless=new',
           '--disable-dev-shm-usage',
           '--disable-software-rasterizer',

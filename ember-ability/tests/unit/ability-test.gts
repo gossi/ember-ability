@@ -3,8 +3,7 @@ import Service from '@ember/service';
 import { render, rerender } from '@ember/test-helpers';
 import { module, test } from 'qunit';
 
-import { ability } from 'ember-ability';
-
+import { ability } from '../../src';
 import { setupRenderingTest } from '../helpers';
 
 import type { TestContext } from '@ember/test-helpers';
@@ -75,6 +74,7 @@ module('Unit | ability', function (hooks) {
 
       assert.dom().hasText('yes');
 
+      // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
       const session = this.owner.lookup('service:session') as SessionService;
 
       session.user = 'Zoey';
@@ -103,6 +103,7 @@ module('Unit | ability', function (hooks) {
 
       assert.dom().hasText('yes');
 
+      // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
       const session = this.owner.lookup('service:session') as SessionService;
 
       session.authenticated = false;

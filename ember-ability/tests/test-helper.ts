@@ -16,6 +16,7 @@ class TestApp extends EmberApp {
   });
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-function
 Router.map(function () {});
 
 import { setApplication } from '@ember/test-helpers';
@@ -30,6 +31,7 @@ export function start() {
       rootElement: '#ember-testing'
     })
   );
+  // eslint-disable-next-line import-x/namespace
   setup(QUnit.assert);
   setupEmberOnerrorValidation();
   qunitStart();
