@@ -53,6 +53,7 @@ jobs:
       - id: set-matrix
         run: |
           echo "matrix=$(pnpm -s dlx @embroider/try list)" >> $GITHUB_OUTPUT
+        working-directory: ./ember-ability
 
   try-scenarios:
     name: ${{ matrix.name }}
