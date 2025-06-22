@@ -1,5 +1,6 @@
-import { Post } from '../domain-objects/blog';
 import { GOSSI, ISAAC } from './users';
+
+import type { Post } from '../domain-objects/blog';
 
 export const FRONTEND_COMPONENT_ARCHITECTURE: Post = Object.freeze({
   id: '1744',

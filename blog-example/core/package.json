@@ -5,6 +5,7 @@
     "declarations",
     "dist"
   ],
+  "type": "module",
   "exports": {
     "./*": {
       "types": "./declarations/*.d.ts",

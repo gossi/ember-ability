@@ -1,7 +1,7 @@
 {
   "extends": "@ember/app-tsconfig",
   "glint": {
-    "environment": ["ember-loose"]
+    "environment": ["ember-loose", "ember-template-imports"]
   },
   "include": ["src", "tests", "types"],
   "compilerOptions": {
