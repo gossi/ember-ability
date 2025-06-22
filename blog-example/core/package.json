@@ -7,9 +7,17 @@
   ],
   "type": "module",
   "exports": {
-    "./*": {
-      "types": "./declarations/*.d.ts",
-      "default": "./dist/*"
+    "./domain-objects/user": {
+      "types": "./dist/domain-objects/user/index.d.ts",
+      "default": "./dist/domain-objects/user/index.js"
+    },
+    "./domain-objects/blog": {
+      "types": "./dist/domain-objects/blog/index.d.ts",
+      "default": "./dist/domain-objects/blog/index.js"
+    },
+    "./fixtures": {
+      "types": "./dist/fixtures/index.d.ts",
+      "default": "./dist/fixtures/index.js"
     }
   },
   "scripts": {
