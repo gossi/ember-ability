@@ -1,13 +1,16 @@
-import Application from '@my-blog/web-app/app';
-import config from '@my-blog/web-app/config/environment';
-import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
+import * as QUnit from 'qunit';
 import { setup } from 'qunit-dom';
-import { start as qunitStart, setupEmberOnerrorValidation } from 'ember-qunit';
+import { setupEmberOnerrorValidation, start as qunitStart } from 'ember-qunit';
+
+import Application from '#/app.ts';
+import config, { enterTestMode } from '#config';
 
 export function start() {
+  enterTestMode();
   setApplication(Application.create(config.APP));
 
+  // eslint-disable-next-line import-x/namespace
   setup(QUnit.assert);
   setupEmberOnerrorValidation();
 

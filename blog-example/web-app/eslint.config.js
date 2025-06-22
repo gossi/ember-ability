@@ -1,3 +1,10 @@
+import { defineConfig } from 'eslint/config';
+
 import { configs } from '@gossi/config-eslint';
 
-export default configs.ember(import.meta.dirname);
+export default defineConfig([
+  {
+    ignores: ['./public/mockServiceWorker.js']
+  },
+  ...configs.ember(import.meta.dirname)
+]);
