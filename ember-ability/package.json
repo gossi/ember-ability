@@ -48,7 +48,8 @@
     "start:js": "rollup --config -w --no-watch.clearScreen",
     "start:types": "glint --declaration -w",
     "dev": "vite dev",
-    "test": "vite build --mode test && testem ci --port 0"
+    "test": "vite build --mode=development --out-dir dist-tests && testem --file testem.cjs ci --port 0",
+    "_test": "vite build --mode test && testem ci --port 0"
   },
   "dependencies": {
     "@embroider/addon-shim": "^1.10.0",
