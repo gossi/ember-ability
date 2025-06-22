@@ -1,4 +1,3 @@
-// import { babelCompatSupport, templateCompatSupport } from '@embroider/compat/babel';
 import { buildMacros } from '@embroider/macros/babel';
 
 const macros = buildMacros();
@@ -13,18 +12,6 @@ export default {
         allowDeclareFields: true
       }
     ],
-    // [
-    //   'babel-plugin-ember-template-compilation',
-    //   {
-    //     compilerPath: 'ember-source/dist/ember-template-compiler.js',
-    //     enableLegacyModules: [
-    //       'ember-cli-htmlbars',
-    //       'ember-cli-htmlbars-inline-precompile',
-    //       'htmlbars-inline-precompile'
-    //     ],
-    //     transforms: [...templateCompatSupport()]
-    //   }
-    // ],
     [
       'module:decorator-transforms',
       {
@@ -41,7 +28,6 @@ export default {
         regenerator: false
       }
     ],
-    // ...babelCompatSupport(),
     ...macros.babelMacros
   ],
 
