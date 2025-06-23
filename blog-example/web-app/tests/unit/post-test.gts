@@ -10,22 +10,6 @@ module('Route | Post', function (hooks) {
   setupRenderingTest(hooks);
   setupMSW(hooks);
 
-  module('For User', function (userHooks) {
-    setupUser(userHooks, GOSSI);
-
-    test('Edit is visible for your own post', async function (this: TestContext, assert) {
-      await render(<template><PostRoute @model={{EMBER_AND_STORYBOOK.id}} /></template>);
-
-      assert.dom('aside').exists();
-    });
-
-    test('Edit is visible for a foreign post', async function (this: TestContext, assert) {
-      await render(<template><PostRoute @model={{EMBER_TIMES_206.id}} /></template>);
-
-      assert.dom('aside').doesNotExist();
-    });
-  });
-
   module('For Admin', function (adminHooks) {
     setupUser(adminHooks, ADMIN);
 
@@ -39,6 +23,22 @@ module('Route | Post', function (hooks) {
       await render(<template><PostRoute @model={{EMBER_TIMES_206.id}} /></template>);
 
       assert.dom('aside').exists();
+    });
+  });
+
+  module('For User', function (userHooks) {
+    setupUser(userHooks, GOSSI);
+
+    test('Edit is visible for your own post', async function (this: TestContext, assert) {
+      await render(<template><PostRoute @model={{EMBER_AND_STORYBOOK.id}} /></template>);
+
+      assert.dom('aside').exists();
+    });
+
+    test('Edit is visible for a foreign post', async function (this: TestContext, assert) {
+      await render(<template><PostRoute @model={{EMBER_TIMES_206.id}} /></template>);
+
+      assert.dom('aside').doesNotExist();
     });
   });
 });

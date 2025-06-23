@@ -47,7 +47,13 @@ function setupTest(hooks: NestedHooks, options?: SetupTestOptions) {
 }
 
 function setupMSW(hooks: NestedHooks) {
-  hooks.before(async () => void (await worker.start()));
+  hooks.before(async () => {
+    void (await worker.start());
+
+    // the timing here ain't working for executing this on CLI
+    // only works in the browser itself
+    await new Promise((resolve) => globalThis.setTimeout(resolve, 0));
+  });
   hooks.afterEach(() => worker.resetHandlers());
   hooks.after(() => worker.stop());
 }
