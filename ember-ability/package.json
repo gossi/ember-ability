@@ -86,7 +86,7 @@
     "ember-source": "^6.3.0",
     "ember-template-lint": "^7.9.1",
     "ember-resources": "^7.0.6",
-    "eslint": "^8.56.0",
+    "eslint": "^9.29.0",
     "eslint-plugin-ember": "^12.1.1",
     "eslint-plugin-qunit": "^8.1.2",
     "prettier": "^3.2.5",
@@ -107,8 +107,5 @@
     "version": 2,
     "type": "addon",
     "main": "addon-main.cjs"
-  },
-  "volta": {
-    "extends": "../package.json"
   }
 }
