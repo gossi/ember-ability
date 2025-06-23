@@ -34,11 +34,11 @@
     "ember-ability": "workspace:*"
   },
   "devDependencies": {
-    "@gossi/config-eslint": "^1.1.0",
+    "@gossi/config-eslint": "^1.1.1",
     "@gossi/config-prettier": "^1.0.1",
     "@pollyjs/core": "^6.0.6",
     "eslint": "^9.29.0",
-    "prettier": "^3.2.5",
+    "prettier": "^3.6.0",
     "tsdown": "^0.12.8",
     "typescript": "^5.7.2",
     "vitest": "^3.2.4"
