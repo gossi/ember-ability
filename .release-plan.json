@@ -1,0 +1,22 @@
+{
+  "solution": {
+    "ember-ability": {
+      "impact": "major",
+      "oldVersion": "0.1.1",
+      "newVersion": "1.0.0",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "major",
+          "reason": "Appears in changelog section :boom: Breaking Change"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./ember-ability/package.json"
+    }
+  },
+  "description": "## Release (2025-06-23)\n\n* ember-ability 1.0.0 (major)\n\n#### :boom: Breaking Change\n* `ember-ability`\n  * [#139](https://github.com/gossi/ember-ability/pull/139) Drop support for node 18 ([@gossi](https://github.com/gossi))\n\n#### :house: Internal\n* `ember-ability`\n  * [#144](https://github.com/gossi/ember-ability/pull/144) Cleanup ([@gossi](https://github.com/gossi))\n  * [#142](https://github.com/gossi/ember-ability/pull/142) Use `release-plan` ([@gossi](https://github.com/gossi))\n  * [#138](https://github.com/gossi/ember-ability/pull/138) Go `vite` ([@gossi](https://github.com/gossi))\n  * [#55](https://github.com/gossi/ember-ability/pull/55) Internal Updates ([@gossi](https://github.com/gossi))\n* Other\n  * [#61](https://github.com/gossi/ember-ability/pull/61) Use shared renovate config ([@gossi](https://github.com/gossi))\n\n#### Committers: 1\n- Thomas Gossmann ([@gossi](https://github.com/gossi))\n"
+}
