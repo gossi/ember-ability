@@ -309,7 +309,7 @@ importers:
         specifier: ^13.1.0
         version: 13.1.1
       ember-resources:
-        specifier: ^7.0.4
+        specifier: ^7.0.6
         version: 7.0.6(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.1)
       ember-source:
         specifier: ^6.3.0
