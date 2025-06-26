@@ -29,7 +29,7 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "lint:types": "glint",
-    "_test": "vite build --mode test && testem ci"
+    "_test": "vite build --mode development && testem ci"
   },
   "dependencies": {
     "@my-blog/core": "workspace:*",
