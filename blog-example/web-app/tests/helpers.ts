@@ -5,11 +5,13 @@ import {
   type SetupTestOptions
 } from 'ember-qunit';
 
-import { worker } from '#/mocks/browser.ts';
+// import { worker } from '#/mocks/browser.ts';
+import { setupWorker } from 'msw/browser';
 
 import type UserService from '../src/services/user';
 import type { TestContext } from '@ember/test-helpers';
 import type { User } from '@my-blog/core/domain-objects/user';
+import type { HttpHandler } from 'msw';
 
 // This file exists to provide wrappers around ember-qunit's
 // test setup functions. This way, you can easily extend the setup that is
@@ -46,16 +48,33 @@ function setupTest(hooks: NestedHooks, options?: SetupTestOptions) {
   // Additional setup for unit tests can be done here.
 }
 
-function setupMSW(hooks: NestedHooks) {
-  hooks.before(async () => {
-    void (await worker.start());
+let worker: ReturnType<typeof setupWorker>;
 
-    // the timing here ain't working for executing this on CLI
-    // only works in the browser itself
-    await new Promise((resolve) => globalThis.setTimeout(resolve, 0));
+function initMSW(QUnit: QUnit, handlers: HttpHandler[] = []) {
+  QUnit.begin(async () => {
+    worker = setupWorker(...handlers);
+    await worker.start();
+    // artificial timeout "just in case" worker takes a bit to boot
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    console.debug(worker.listHandlers());
   });
+
+  QUnit.done(() => {
+    console.debug(worker.listHandlers());
+    worker.stop();
+  });
+}
+
+function setupMSW(hooks: NestedHooks) {
+  // hooks.before(async () => {
+  //   void (await worker.start());
+
+  //   // the timing here ain't working for executing this on CLI
+  //   // only works in the browser itself
+  //   await new Promise((resolve) => globalThis.setTimeout(resolve, 0));
+  // });
   hooks.afterEach(() => worker.resetHandlers());
-  hooks.after(() => worker.stop());
+  // hooks.after(() => worker.stop());
 }
 
 function setupUser(hooks: NestedHooks, user: User) {
@@ -66,4 +85,4 @@ function setupUser(hooks: NestedHooks, user: User) {
   });
 }
 
-export { setupApplicationTest, setupMSW, setupRenderingTest, setupTest, setupUser };
+export { initMSW, setupApplicationTest, setupMSW, setupRenderingTest, setupTest, setupUser };
