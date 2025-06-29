@@ -300,7 +300,7 @@ importers:
         specifier: ^2.19.12
         version: 2.19.12
       babel-plugin-ember-template-compilation:
-        specifier: ^2.2.5
+        specifier: ^2.4.1
         version: 2.4.1
       ember-qunit:
         specifier: ^9.0.2
