@@ -15,7 +15,7 @@
     "test": "pnpm run -r --parallel  --aggregate-output test"
   },
   "devDependencies": {
-    "release-plan": "^0.16.0",
+    "release-plan": "^0.17.0",
     "turbo": "^2.5.4"
   },
   "packageManager": "pnpm@10.2.1"
