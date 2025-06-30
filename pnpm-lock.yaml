@@ -303,7 +303,7 @@ importers:
         specifier: ^2.4.1
         version: 2.4.1
       ember-qunit:
-        specifier: ^9.0.2
+        specifier: ^9.0.3
         version: 9.0.3(@ember/test-helpers@5.2.2(@babel/core@7.27.7)(@glint/template@1.6.0-alpha.1))(@glint/template@1.6.0-alpha.1)(qunit@2.24.1)
       ember-resolver:
         specifier: ^13.1.0
