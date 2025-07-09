@@ -126,7 +126,7 @@ importers:
         version: 1.0.1(prettier@3.6.2)
       '@gossi/config-stylelint':
         specifier: ^1.0.2
-        version: 1.0.2(stylelint@16.21.0(typescript@5.8.3))
+        version: 1.0.2(stylelint@16.21.1(typescript@5.8.3))
       '@gossi/config-template-lint':
         specifier: ^1.0.1
         version: 1.0.1(ember-template-lint@7.9.1)(prettier@3.6.2)
@@ -206,8 +206,8 @@ importers:
         specifier: ^1.6.2
         version: 1.6.2(@babel/core@7.27.7)(@ember/test-waiters@4.1.0(@glint/template@1.6.0-alpha.1))(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.1)
       stylelint:
-        specifier: ^16.21.0
-        version: 16.21.0(typescript@5.8.3)
+        specifier: ^16.21.1
+        version: 16.21.1(typescript@5.8.3)
       testem:
         specifier: ^3.16.0
         version: 3.16.0(handlebars@4.7.8)(underscore@1.13.7)
@@ -6871,8 +6871,8 @@ packages:
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
 
-  stylelint@16.21.0:
-    resolution: {integrity: sha512-ki3PpJGG7xhm3WtINoWGnlvqAmbqSexoRMbEMJzlwewSIOqPRKPlq452c22xAdEJISVi80r+I7KL9GPUiwFgbg==}
+  stylelint@16.21.1:
+    resolution: {integrity: sha512-WCXdXnYK2tpCbebgMF0Bme3YZH/Rh/UXerj75twYo4uLULlcrLwFVdZTvTEF8idFnAcW21YUDJFyKOfaf6xJRw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -9229,13 +9229,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@gossi/config-stylelint@1.0.2(stylelint@16.21.0(typescript@5.8.3))':
+  '@gossi/config-stylelint@1.0.2(stylelint@16.21.1(typescript@5.8.3))':
     dependencies:
       '@gossi/config-targets': 1.0.1
-      stylelint: 16.21.0(typescript@5.8.3)
-      stylelint-config-clean-order: 7.0.0(stylelint@16.21.0(typescript@5.8.3))
-      stylelint-config-standard: 38.0.0(stylelint@16.21.0(typescript@5.8.3))
-      stylelint-no-unsupported-browser-features: 8.0.4(stylelint@16.21.0(typescript@5.8.3))
+      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint-config-clean-order: 7.0.0(stylelint@16.21.1(typescript@5.8.3))
+      stylelint-config-standard: 38.0.0(stylelint@16.21.1(typescript@5.8.3))
+      stylelint-no-unsupported-browser-features: 8.0.4(stylelint@16.21.1(typescript@5.8.3))
 
   '@gossi/config-targets@1.0.1': {}
 
@@ -15564,33 +15564,33 @@ snapshots:
 
   styled_string@0.0.1: {}
 
-  stylelint-config-clean-order@7.0.0(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-clean-order@7.0.0(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.0(typescript@5.8.3)
-      stylelint-order: 6.0.4(stylelint@16.21.0(typescript@5.8.3))
+      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint-order: 6.0.4(stylelint@16.21.1(typescript@5.8.3))
 
-  stylelint-config-recommended@16.0.0(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-recommended@16.0.0(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint-config-standard@38.0.0(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-standard@38.0.0(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.0(typescript@5.8.3)
-      stylelint-config-recommended: 16.0.0(stylelint@16.21.0(typescript@5.8.3))
+      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint-config-recommended: 16.0.0(stylelint@16.21.1(typescript@5.8.3))
 
-  stylelint-no-unsupported-browser-features@8.0.4(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-no-unsupported-browser-features@8.0.4(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       doiuse: 6.0.5
       postcss: 8.5.6
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint-order@6.0.4(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-order@6.0.4(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       postcss: 8.5.6
       postcss-sorting: 8.0.2(postcss@8.5.6)
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint@16.21.0(typescript@5.8.3):
+  stylelint@16.21.1(typescript@5.8.3):
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
