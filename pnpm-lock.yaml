@@ -203,8 +203,8 @@ importers:
         specifier: ^3.4.0
         version: 3.4.0
       reactiveweb:
-        specifier: ^1.6.2
-        version: 1.6.2(@babel/core@7.28.0)(@ember/test-waiters@4.1.1(@glint/template@1.6.0-alpha.1))(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.1)
+        specifier: ^1.7.0
+        version: 1.7.0(@babel/core@7.28.0)(@ember/test-waiters@4.1.1(@glint/template@1.6.0-alpha.1))(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.1)
       stylelint:
         specifier: ^16.21.1
         version: 16.21.1(typescript@5.8.3)
@@ -6175,8 +6175,8 @@ packages:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
 
-  reactiveweb@1.6.2:
-    resolution: {integrity: sha512-8WFolGcpwBfMSmfwckIwsJTysChpfHRNJ7NTgojJRhRssaVE/gVtZmk21/kgT+cwea6K3XbWpnOfglblBt8T7w==}
+  reactiveweb@1.7.0:
+    resolution: {integrity: sha512-z02Hfd3bxkOhBjsv5MxZnUkigpwZxOtpTBb0IkCojdEeVM8SCHUO6TcG0kkb70HdmPMKmjMDzoe5d7hIa7MJlQ==}
     peerDependencies:
       '@ember/test-waiters': '>= 3.1.0'
 
@@ -14751,7 +14751,7 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  reactiveweb@1.6.2(@babel/core@7.28.0)(@ember/test-waiters@4.1.1(@glint/template@1.6.0-alpha.1))(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.1):
+  reactiveweb@1.7.0(@babel/core@7.28.0)(@ember/test-waiters@4.1.1(@glint/template@1.6.0-alpha.1))(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.1):
     dependencies:
       '@ember/test-waiters': 4.1.1(@glint/template@1.6.0-alpha.1)
       '@embroider/addon-shim': 1.10.0
