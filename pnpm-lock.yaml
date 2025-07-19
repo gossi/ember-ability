@@ -126,7 +126,7 @@ importers:
         version: 1.0.1(prettier@3.6.2)
       '@gossi/config-stylelint':
         specifier: ^1.0.2
-        version: 1.0.2(stylelint@16.21.1(typescript@5.8.3))
+        version: 1.0.2(stylelint@16.22.0(typescript@5.8.3))
       '@gossi/config-template-lint':
         specifier: ^1.0.1
         version: 1.0.1(ember-template-lint@7.9.1)(prettier@3.6.2)
@@ -206,8 +206,8 @@ importers:
         specifier: ^1.7.0
         version: 1.7.0(@babel/core@7.28.0)(@ember/test-waiters@4.1.1(@glint/template@1.6.0-alpha.1))(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.1)
       stylelint:
-        specifier: ^16.21.1
-        version: 16.21.1(typescript@5.8.3)
+        specifier: ^16.22.0
+        version: 16.22.0(typescript@5.8.3)
       testem:
         specifier: ^3.16.0
         version: 3.16.0(handlebars@4.7.8)(underscore@1.13.7)
@@ -6889,8 +6889,8 @@ packages:
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
 
-  stylelint@16.21.1:
-    resolution: {integrity: sha512-WCXdXnYK2tpCbebgMF0Bme3YZH/Rh/UXerj75twYo4uLULlcrLwFVdZTvTEF8idFnAcW21YUDJFyKOfaf6xJRw==}
+  stylelint@16.22.0:
+    resolution: {integrity: sha512-SVEMTdjKNV4ollUrIY9ordZ36zHv2/PHzPjfPMau370MlL2VYXeLgSNMMiEbLGRO8RmD2R8/BVUeF2DfnfkC0w==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -7439,8 +7439,8 @@ packages:
       '@volar/language-service':
         optional: true
 
-  volar-service-typescript@0.0.64:
-    resolution: {integrity: sha512-FN2H97iqjR1id8AM4fH7lTXuTx2on9zD6QlUFllaiHKqgNrEITlQwm/9Ujrd9ST7MUzhgIKyUsa2WlanX9kkMg==}
+  volar-service-typescript@0.0.65:
+    resolution: {integrity: sha512-zPJuLIMs7lkQCvL+Rza8+3/EIoXEIkX8+DL7bNNfPgnbalbvRDhqWLVMJ6Zk3pINjLJafDqyhSbw8srfkUv97w==}
     peerDependencies:
       '@volar/language-service': ~2.4.0
     peerDependenciesMeta:
@@ -9199,7 +9199,7 @@ snapshots:
       typescript: 5.8.3
       uuid: 8.3.2
       volar-service-html: 0.0.64(@volar/language-service@2.4.12)
-      volar-service-typescript: 0.0.64(@volar/language-service@2.4.12)
+      volar-service-typescript: 0.0.65(@volar/language-service@2.4.12)
       vscode-languageserver-protocol: 3.17.5
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.1.0
@@ -9261,13 +9261,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@gossi/config-stylelint@1.0.2(stylelint@16.21.1(typescript@5.8.3))':
+  '@gossi/config-stylelint@1.0.2(stylelint@16.22.0(typescript@5.8.3))':
     dependencies:
       '@gossi/config-targets': 1.0.1
-      stylelint: 16.21.1(typescript@5.8.3)
-      stylelint-config-clean-order: 7.0.0(stylelint@16.21.1(typescript@5.8.3))
-      stylelint-config-standard: 38.0.0(stylelint@16.21.1(typescript@5.8.3))
-      stylelint-no-unsupported-browser-features: 8.0.4(stylelint@16.21.1(typescript@5.8.3))
+      stylelint: 16.22.0(typescript@5.8.3)
+      stylelint-config-clean-order: 7.0.0(stylelint@16.22.0(typescript@5.8.3))
+      stylelint-config-standard: 38.0.0(stylelint@16.22.0(typescript@5.8.3))
+      stylelint-no-unsupported-browser-features: 8.0.4(stylelint@16.22.0(typescript@5.8.3))
 
   '@gossi/config-targets@1.0.1': {}
 
@@ -15597,33 +15597,33 @@ snapshots:
 
   styled_string@0.0.1: {}
 
-  stylelint-config-clean-order@7.0.0(stylelint@16.21.1(typescript@5.8.3)):
+  stylelint-config-clean-order@7.0.0(stylelint@16.22.0(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.1(typescript@5.8.3)
-      stylelint-order: 6.0.4(stylelint@16.21.1(typescript@5.8.3))
+      stylelint: 16.22.0(typescript@5.8.3)
+      stylelint-order: 6.0.4(stylelint@16.22.0(typescript@5.8.3))
 
-  stylelint-config-recommended@16.0.0(stylelint@16.21.1(typescript@5.8.3)):
+  stylelint-config-recommended@16.0.0(stylelint@16.22.0(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint: 16.22.0(typescript@5.8.3)
 
-  stylelint-config-standard@38.0.0(stylelint@16.21.1(typescript@5.8.3)):
+  stylelint-config-standard@38.0.0(stylelint@16.22.0(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.1(typescript@5.8.3)
-      stylelint-config-recommended: 16.0.0(stylelint@16.21.1(typescript@5.8.3))
+      stylelint: 16.22.0(typescript@5.8.3)
+      stylelint-config-recommended: 16.0.0(stylelint@16.22.0(typescript@5.8.3))
 
-  stylelint-no-unsupported-browser-features@8.0.4(stylelint@16.21.1(typescript@5.8.3)):
+  stylelint-no-unsupported-browser-features@8.0.4(stylelint@16.22.0(typescript@5.8.3)):
     dependencies:
       doiuse: 6.0.5
       postcss: 8.5.6
-      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint: 16.22.0(typescript@5.8.3)
 
-  stylelint-order@6.0.4(stylelint@16.21.1(typescript@5.8.3)):
+  stylelint-order@6.0.4(stylelint@16.22.0(typescript@5.8.3)):
     dependencies:
       postcss: 8.5.6
       postcss-sorting: 8.0.2(postcss@8.5.6)
-      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint: 16.22.0(typescript@5.8.3)
 
-  stylelint@16.21.1(typescript@5.8.3):
+  stylelint@16.22.0(typescript@5.8.3):
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
@@ -16339,7 +16339,7 @@ snapshots:
     optionalDependencies:
       '@volar/language-service': 2.4.12
 
-  volar-service-typescript@0.0.64(@volar/language-service@2.4.12):
+  volar-service-typescript@0.0.65(@volar/language-service@2.4.12):
     dependencies:
       path-browserify: 1.0.1
       semver: 7.7.2
