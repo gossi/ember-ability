@@ -107,14 +107,14 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       '@glint/core':
-        specifier: ^2.0.0-alpha.2
-        version: 2.0.0-alpha.2(typescript@5.8.3)
+        specifier: ^2.0.0-alpha.3
+        version: 2.0.0-alpha.3(typescript@5.8.3)
       '@glint/environment-ember-loose':
         specifier: ^2.0.0-alpha.2
-        version: 2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0))
+        version: 2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0))
       '@glint/environment-ember-template-imports':
         specifier: ^2.0.0-alpha.2
-        version: 2.0.0-alpha.2(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/environment-ember-loose@2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0)))(@glint/template@1.6.0-alpha.1)
+        version: 2.0.0-alpha.2(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/environment-ember-loose@2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0)))(@glint/template@1.6.0-alpha.1)
       '@glint/template':
         specifier: ^1.6.0-alpha.1
         version: 1.6.0-alpha.1
@@ -270,14 +270,14 @@ importers:
         specifier: ^1.1.5
         version: 1.1.5(@embroider/core@4.1.1(@glint/template@1.6.0-alpha.1))(@glint/template@1.6.0-alpha.1)(rollup@4.45.1)(vite@7.0.6(@types/node@24.0.12)(jiti@2.4.2)(terser@5.43.1))
       '@glint/core':
-        specifier: ^2.0.0-alpha.2
-        version: 2.0.0-alpha.2(typescript@5.8.3)
+        specifier: ^2.0.0-alpha.3
+        version: 2.0.0-alpha.3(typescript@5.8.3)
       '@glint/environment-ember-loose':
         specifier: ^2.0.0-alpha.2
-        version: 2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0))
+        version: 2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0))
       '@glint/environment-ember-template-imports':
         specifier: ^2.0.0-alpha.2
-        version: 2.0.0-alpha.2(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/environment-ember-loose@2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0)))(@glint/template@1.6.0-alpha.1)
+        version: 2.0.0-alpha.2(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/environment-ember-loose@2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0)))(@glint/template@1.6.0-alpha.1)
       '@glint/template':
         specifier: ^1.6.0-alpha.1
         version: 1.6.0-alpha.1
@@ -1413,8 +1413,8 @@ packages:
   '@glimmer/wire-format@0.94.8':
     resolution: {integrity: sha512-A+Cp5m6vZMAEu0Kg/YwU2dJZXyYxVJs2zI57d3CP6NctmX7FsT8WjViiRUmt5abVmMmRH5b8BUovqY6GSMAdrw==}
 
-  '@glint/core@2.0.0-alpha.2':
-    resolution: {integrity: sha512-380+A50bS3JZUjRJmoEjLansQRPvNPTMzT3mtsBuDw3XegjDTM24TqWZcTWBQ5/QsuqGmMX+GRHgZoEipJo+tA==}
+  '@glint/core@2.0.0-alpha.3':
+    resolution: {integrity: sha512-PCiajENyPfNkFfSDhqIcQ0DXzJZrPc1g7v5o8FyLDtvSwmM+/wlmpI4yJDXgo2TGJKFowjSOY1MKFRMiEd36GA==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.6.0'
@@ -9182,7 +9182,7 @@ snapshots:
     dependencies:
       '@glimmer/interfaces': 0.94.6
 
-  '@glint/core@2.0.0-alpha.2(typescript@5.8.3)':
+  '@glint/core@2.0.0-alpha.3(typescript@5.8.3)':
     dependencies:
       '@glimmer/syntax': 0.94.9
       '@volar/kit': 2.4.12(typescript@5.8.3)
@@ -9207,18 +9207,18 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@glint/environment-ember-loose@2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0))':
+  '@glint/environment-ember-loose@2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0))':
     dependencies:
       '@glimmer/component': 2.0.0
-      '@glint/core': 2.0.0-alpha.2(typescript@5.8.3)
+      '@glint/core': 2.0.0-alpha.3(typescript@5.8.3)
       '@glint/template': 1.6.0-alpha.1
     optionalDependencies:
       ember-modifier: 4.2.2(@babel/core@7.28.0)
 
-  '@glint/environment-ember-template-imports@2.0.0-alpha.2(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/environment-ember-loose@2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0)))(@glint/template@1.6.0-alpha.1)':
+  '@glint/environment-ember-template-imports@2.0.0-alpha.2(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/environment-ember-loose@2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0)))(@glint/template@1.6.0-alpha.1)':
     dependencies:
-      '@glint/core': 2.0.0-alpha.2(typescript@5.8.3)
-      '@glint/environment-ember-loose': 2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.2(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0))
+      '@glint/core': 2.0.0-alpha.3(typescript@5.8.3)
+      '@glint/environment-ember-loose': 2.0.0-alpha.2(@glimmer/component@2.0.0)(@glint/core@2.0.0-alpha.3(typescript@5.8.3))(@glint/template@1.6.0-alpha.1)(ember-modifier@4.2.2(@babel/core@7.28.0))
       '@glint/template': 1.6.0-alpha.1
       content-tag: 3.1.3
 
