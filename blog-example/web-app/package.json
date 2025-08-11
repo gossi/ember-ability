@@ -91,7 +91,7 @@
     "testem": "^3.16.0",
     "tracked-built-ins": "^4.0.0",
     "typescript": "^5.9.2",
-    "vite": "^7.0.6"
+    "vite": "^7.1.1"
   },
   "engines": {
     "node": "^20.11.0 || >=22"
