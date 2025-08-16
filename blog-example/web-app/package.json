@@ -36,9 +36,9 @@
     "ember-ability": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.0",
-    "@babel/runtime": "^7.28.2",
-    "@babel/plugin-transform-runtime": "^7.28.0",
+    "@babel/core": "^7.28.3",
+    "@babel/runtime": "^7.28.3",
+    "@babel/plugin-transform-runtime": "^7.28.3",
     "@babel/plugin-transform-typescript": "^7.28.0",
     "@babel/eslint-parser": "^7.28.0",
     "@ember/app-tsconfig": "^1.0.3",
