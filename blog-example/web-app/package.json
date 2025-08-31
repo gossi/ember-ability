@@ -82,7 +82,7 @@
     "eslint": "^9.29.0",
     "eslint-plugin-ember": "^12.5.0",
     "globals": "^16.3.0",
-    "msw": "^2.10.5",
+    "msw": "^2.11.1",
     "prettier": "^3.6.0",
     "qunit": "^2.24.1",
     "qunit-dom": "^3.5.0",
