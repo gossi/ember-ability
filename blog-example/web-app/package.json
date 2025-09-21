@@ -81,7 +81,7 @@
     "ember-template-lint": "^7.9.1",
     "eslint": "^9.29.0",
     "eslint-plugin-ember": "^12.5.0",
-    "globals": "^16.3.0",
+    "globals": "^16.4.0",
     "msw": "^2.11.3",
     "prettier": "^3.6.0",
     "qunit": "^2.24.1",
