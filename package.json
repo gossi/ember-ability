@@ -18,5 +18,5 @@
     "release-plan": "^0.17.2",
     "turbo": "^2.5.6"
   },
-  "packageManager": "pnpm@10.15.0"
+  "packageManager": "pnpm@10.17.0"
 }
