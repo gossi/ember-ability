@@ -86,23 +86,23 @@ importers:
         specifier: ^4.1.0
         version: 4.1.1(@glint/template@1.6.0-alpha.3)
       '@embroider/compat':
-        specifier: ^4.1.4
-        version: 4.1.4(@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)
+        specifier: ^4.1.7
+        version: 4.1.7(@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)
       '@embroider/config-meta-loader':
         specifier: ^1.0.0
         version: 1.0.0
       '@embroider/core':
-        specifier: ^4.2.1
-        version: 4.2.1(@glint/template@1.6.0-alpha.3)
+        specifier: ^4.2.4
+        version: 4.2.4(@glint/template@1.6.0-alpha.3)
       '@embroider/macros':
-        specifier: ^1.18.2
-        version: 1.18.2(@glint/template@1.6.0-alpha.3)
+        specifier: ^1.19.1
+        version: 1.19.1(@glint/template@1.6.0-alpha.3)
       '@embroider/router':
-        specifier: ^3.0.3
-        version: 3.0.3(@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)
+        specifier: ^3.0.4
+        version: 3.0.4(@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)
       '@embroider/vite':
-        specifier: ^1.2.1
-        version: 1.2.1(@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)(rollup@4.52.3)(vite@7.1.7(@types/node@24.0.12)(jiti@2.5.1)(terser@5.43.1))
+        specifier: ^1.3.2
+        version: 1.3.2(@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)(rollup@4.52.3)(vite@7.1.7(@types/node@24.0.12)(jiti@2.5.1)(terser@5.43.1))
       '@glimmer/component':
         specifier: ^2.0.0
         version: 2.0.0
@@ -258,17 +258,17 @@ importers:
         specifier: ^8.1.0
         version: 8.1.0(@glint/template@1.6.0-alpha.3)(rollup@4.52.3)
       '@embroider/compat':
-        specifier: ^4.1.4
-        version: 4.1.4(@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)
+        specifier: ^4.1.7
+        version: 4.1.7(@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)
       '@embroider/core':
-        specifier: ^4.2.1
-        version: 4.2.1(@glint/template@1.6.0-alpha.3)
+        specifier: ^4.2.4
+        version: 4.2.4(@glint/template@1.6.0-alpha.3)
       '@embroider/macros':
-        specifier: ^1.18.2
-        version: 1.18.2(@glint/template@1.6.0-alpha.3)
+        specifier: ^1.19.1
+        version: 1.19.1(@glint/template@1.6.0-alpha.3)
       '@embroider/vite':
-        specifier: ^1.2.1
-        version: 1.2.1(@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)(rollup@4.52.3)(vite@7.1.7(@types/node@24.0.12)(jiti@2.5.1)(terser@5.43.1))
+        specifier: ^1.3.2
+        version: 1.3.2(@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)(rollup@4.52.3)(vite@7.1.7(@types/node@24.0.12)(jiti@2.5.1)(terser@5.43.1))
       '@glint/core':
         specifier: ^2.0.0-alpha.10
         version: 2.0.0-alpha.10(typescript@5.9.2)
@@ -1039,22 +1039,22 @@ packages:
     resolution: {integrity: sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/compat@4.1.4':
-    resolution: {integrity: sha512-NUPE44OUxSsYYz1R4l+SXmqBRPEF3auDwTvzbuyKvz1p2EY8bqO1FfH62gcJfupavuM4PLS+Ve6U4csSoAqPyA==}
+  '@embroider/compat@4.1.7':
+    resolution: {integrity: sha512-KyK+L2RNuLV5q8AW2G6LE9pOY0zG6mbMALJ1uQ8karE+VrF3rNj3scxwCFbvhUyvvdVctd1YX/A7NiDkxT84mw==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
-      '@embroider/core': ^4.2.1
+      '@embroider/core': ^4.2.4
 
   '@embroider/config-meta-loader@1.0.0':
     resolution: {integrity: sha512-qznkdjgEGPe6NM94hZNXvOm/WhrJwBh8FtSQZ+nGjh9TOjY42tOiTEevFuM0onNXUn6bpdGzmjwKo2xY2jxQxQ==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/core@4.2.1':
-    resolution: {integrity: sha512-rtL+jX3wJOEslICZd9SEgHJRxSnDnA3/BVe104272pSAn6f4uCbSIySdmlM8LT2xE2y1XMsbI2yxTdpJIDHsVg==}
+  '@embroider/core@4.2.4':
+    resolution: {integrity: sha512-T1JIKt3h4VkpCsLfyBhAJYsGbNLoug/PP4a4bU+bnOzEcmLxRMAuECIiw7ngxlWFHH+OrWEqN5sIQ11IuOMAfw==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/macros@1.18.2':
-    resolution: {integrity: sha512-mkgk0yjcYgujZQv9IGLD3yPb4a+d6EDKm22GK6TUyBCF8veTeg6HBXwHfu6K2DCnG0LEwnb2MJ0WCFGmTiatPw==}
+  '@embroider/macros@1.19.1':
+    resolution: {integrity: sha512-KgPan7fiyoDGfr6SMdMELhcgUXK6pU/QICSK0yFFzsXVBJYM2fHAXCic5WCBETtv7xsvi4byziahSz5HpqYs/A==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
       '@glint/template': ^1.0.0
@@ -1065,8 +1065,8 @@ packages:
   '@embroider/reverse-exports@0.1.2':
     resolution: {integrity: sha512-TgjQalfB42RnwdRVApjcvHSVjBe+7MJfCZV0Cs1jv2QgnFGr/6f5X19PKvmF4FU4xbBf7yOsIWrVvYvidWnXlw==}
 
-  '@embroider/router@3.0.3':
-    resolution: {integrity: sha512-gM8DxtSvoXjwPxO1UwR5AmJGMNx6evfdHtUyj4RNg4mAlFTzpsyMHLMzNff3Tabk0MCQnu+Y8IeFLOJUftCj7w==}
+  '@embroider/router@3.0.4':
+    resolution: {integrity: sha512-kSygi43vpyqaX7gOaIPFY6WkqHm0NlvMSFJBG98Z2DNxjalGFI3+vzVEmguzQd5fgiMiZcXVAug4yjn1CKdXTA==}
     peerDependencies:
       '@embroider/core': ^2.0.0||^3.0.0||^4.0.0-alpha.0
     peerDependenciesMeta:
@@ -1081,10 +1081,10 @@ packages:
     resolution: {integrity: sha512-d7RQwDwqqHo7YvjE9t1rtIrCCYtbSoO0uRq2ikVhRh4hGS5OojZNu2ZtS0Wqrg+V72CRtMFr/hibTvHNsRM2Lg==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/vite@1.2.1':
-    resolution: {integrity: sha512-3ZCEqn2aZEiS28zDMWqeZY5cKQ72+Orza1rgn44eIdBIgpg+RmaXkKdguZm6SrO4/Pt1XM80bgtc2KyrFG98Fw==}
+  '@embroider/vite@1.3.2':
+    resolution: {integrity: sha512-Ea1kpVM+W1RzeupWcornchtRZI58FenalKDT1Dz8Xu1PNH1En+FntDUSEjjT0SOzk6CjON8JlqLocxeKjDwHUg==}
     peerDependencies:
-      '@embroider/core': ^4.2.1
+      '@embroider/core': ^4.2.4
       vite: '>= 5.2.0'
 
   '@emnapi/core@1.5.0':
@@ -1573,8 +1573,8 @@ packages:
   '@napi-rs/wasm-runtime@0.2.11':
     resolution: {integrity: sha512-9DPkXtvHydrcOsopiYpUgPHpmj0HWZKMUnL2dZqpvC42lsratuBG06V5ipyno0fUek5VlFsNQ+AcFATSrJXgMA==}
 
-  '@napi-rs/wasm-runtime@1.0.5':
-    resolution: {integrity: sha512-TBr9Cf9onSAS2LQ2+QHx6XcC6h9+RIzJgbqG3++9TUZSH204AwEy5jg3BTQ0VATsyoGj4ee49tN/y6rvaOOtcg==}
+  '@napi-rs/wasm-runtime@1.0.6':
+    resolution: {integrity: sha512-DXj75ewm11LIWUk198QSKUTxjyRjsBwk09MuMk5DGK+GDUtyPhhEHOGP/Xwwj3DjQXXkivoBirmOnKrLfc0+9g==}
 
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
     resolution: {integrity: sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==}
@@ -1678,8 +1678,8 @@ packages:
   '@open-draft/until@2.1.0':
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
 
-  '@oxc-project/types@0.92.0':
-    resolution: {integrity: sha512-PDLfCbwgXjGdTBxzcuDOUxJYNBl6P8dOp3eDKWw54dYvqONan9rwGDRQU0zrkdEMiItfXQQUOI17uOcMX5Zm7A==}
+  '@oxc-project/types@0.94.0':
+    resolution: {integrity: sha512-+UgQT/4o59cZfH6Cp7G0hwmqEQ0wE+AdIwhikdwnhWI9Dp8CgSY081+Q3O67/wq3VJu8mgUEB93J9EHHn70fOw==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -1727,91 +1727,91 @@ packages:
   '@quansync/fs@0.1.5':
     resolution: {integrity: sha512-lNS9hL2aS2NZgNW7BBj+6EBl4rOf8l+tQ0eRY6JWCI8jI2kc53gSoqbjojU0OnAWhzoXiOjFyGsHcDGePB3lhA==}
 
-  '@rolldown/binding-android-arm64@1.0.0-beta.40':
-    resolution: {integrity: sha512-9Ii9phC7QU6Lb+ncMfG1Xlosq0NBB1N/4sw+EGZ3y0BBWGy02TOb5ghWZalphAKv9rn1goqo5WkBjyd2YvsLmA==}
+  '@rolldown/binding-android-arm64@1.0.0-beta.42':
+    resolution: {integrity: sha512-W5ZKF3TP3bOWuBfotAGp+UGjxOkGV7jRmIRbBA7NFjggx7Oi6vOmGDqpHEIX7kDCiry1cnIsWQaxNvWbMdkvzQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [android]
 
-  '@rolldown/binding-darwin-arm64@1.0.0-beta.40':
-    resolution: {integrity: sha512-5O6d0y2tBQTL+ecQY3qXIwSnF1/Zik8q7LZMKeyF+VJ9l194d0IdMhl2zUF0cqWbYHuF4Pnxplk4OhurPQ/Z9Q==}
+  '@rolldown/binding-darwin-arm64@1.0.0-beta.42':
+    resolution: {integrity: sha512-abw/wtgJA8OCgaTlL+xJxnN/Z01BwV1rfzIp5Hh9x+IIO6xOBfPsQ0nzi0+rWx3TyZ9FZXyC7bbC+5NpQ9EaXQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
-  '@rolldown/binding-darwin-x64@1.0.0-beta.40':
-    resolution: {integrity: sha512-izB9jygt3miPQbOTZfSu5K51isUplqa8ysByOKQqcJHgrBWmbTU8TM9eouv6tRmBR0kjcEcID9xhmA1CeZ1VIg==}
+  '@rolldown/binding-darwin-x64@1.0.0-beta.42':
+    resolution: {integrity: sha512-Y/UrZIRVr8CvXVEB88t6PeC46r1K9/QdPEo2ASE/b/KBEyXIx+QbM6kv9QfQVWU2Atly2+SVsQzxQsIvuk3lZQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
-  '@rolldown/binding-freebsd-x64@1.0.0-beta.40':
-    resolution: {integrity: sha512-2fdpEpKT+wwP0vig9dqxu+toTeWmVSjo3psJQVDeLJ51rO+GXcCJ1IkCXjhMKVEevNtZS7B8T8Z2vvmRV9MAdA==}
+  '@rolldown/binding-freebsd-x64@1.0.0-beta.42':
+    resolution: {integrity: sha512-zRM0oOk7BZiy6DoWBvdV4hyEg+j6+WcBZIMHVirMEZRu8hd18kZdJkg+bjVMfCEhwpWeFUfBfZ1qcaZ5UdYzlQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [freebsd]
 
-  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.40':
-    resolution: {integrity: sha512-HP2lo78OWULN+8TewpLbS9PS00jh0CaF04tA2u8z2I+6QgVgrYOYKvX+T0hlO5smgso4+qb3YchzumWJl3yCPQ==}
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.42':
+    resolution: {integrity: sha512-6RjFaC52QNwo7ilU8C5H7swbGlgfTkG9pudXwzr3VYyT18s0C9gLg3mvc7OMPIGqNxnQ0M5lU8j6aQCk2DTRVg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.40':
-    resolution: {integrity: sha512-ng00gfr9BhA2NPAOU5RWAlTiL+JcwAD+L+4yUD1sbBy6tgHdLiNBOvKtHISIF9RM9/eQeS0tAiWOYZGIH9JMew==}
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.42':
+    resolution: {integrity: sha512-LMYHM5Sf6ROq+VUwHMDVX2IAuEsWTv4SnlFEedBnMGpvRuQ14lCmD4m5Q8sjyAQCgyha9oghdGoK8AEg1sXZKg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.40':
-    resolution: {integrity: sha512-mF0R1l9kLcaag/9cLEiYYdNZ4v1uuX4jklSDZ1s6vJE4RB3LirUney0FavdVRwCJ5sDvfvsPgXgtBXWYr2M2tQ==}
+  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.42':
+    resolution: {integrity: sha512-/bNTYb9aKNhzdbPn3O4MK2aLv55AlrkUKPE4KNfBYjkoZUfDr4jWp7gsSlvTc5A/99V1RCm9axvt616ZzeXGyA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.40':
-    resolution: {integrity: sha512-+wi08S7wT5iLPHRZb0USrS6n+T6m+yY++dePYedE5uvKIpWCJJioFTaRtWjpm0V6dVNLcq2OukrvfdlGtH9Wgg==}
+  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.42':
+    resolution: {integrity: sha512-n/SLa4h342oyeGykZdch7Y3GNCNliRPL4k5wkeZ/5eQZs+c6/ZG1SHCJQoy7bZcmxiMyaXs9HoFmv1PEKrZgWg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-musl@1.0.0-beta.40':
-    resolution: {integrity: sha512-W5qBGAemUocIBKCcOsDjlV9GUt28qhl/+M6etWBeLS5gQK0J6XDg0YVzfOQdvq57ZGjYNP0NvhYzqhOOnEx+4g==}
+  '@rolldown/binding-linux-x64-musl@1.0.0-beta.42':
+    resolution: {integrity: sha512-4PSd46sFzqpLHSGdaSViAb1mk55sCUMpJg+X8ittXaVocQsV3QLG/uydSH8RyL0ngHX5fy3D70LcCzlB15AgHw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-openharmony-arm64@1.0.0-beta.40':
-    resolution: {integrity: sha512-vJwoDehtt+yqj2zacq1AqNc2uE/oh7mnRGqAUbuldV6pgvU01OSQUJ7Zu+35hTopnjFoDNN6mIezkYlGAv5RFA==}
+  '@rolldown/binding-openharmony-arm64@1.0.0-beta.42':
+    resolution: {integrity: sha512-BmWoeJJyeZXmZBcfoxG6J9+rl2G7eO47qdTkAzEegj4n3aC6CBIHOuDcbE8BvhZaEjQR0nh0nJrtEDlt65Q7Sw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [openharmony]
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-beta.40':
-    resolution: {integrity: sha512-Oj3YyqVUPurr1FlMpEE/bJmMC+VWAWPM/SGUfklO5KUX97bk5Q/733nPg4RykK8q8/TluJoQYvRc05vL/B74dw==}
+  '@rolldown/binding-wasm32-wasi@1.0.0-beta.42':
+    resolution: {integrity: sha512-2Ft32F7uiDTrGZUKws6CLNTlvTWHC33l4vpXrzUucf9rYtUThAdPCOt89Pmn13tNX6AulxjGEP2R0nZjTSW3eQ==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.40':
-    resolution: {integrity: sha512-0ZtO6yN8XjVoFfN4HDWQj4nDu3ndMybr7jIM00DJqOmc+yFhly7rdOy7fNR9Sky3leCpBtsXfepVqRmVpYKPVA==}
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.42':
+    resolution: {integrity: sha512-hC1kShXW/z221eG+WzQMN06KepvPbMBknF0iGR3VMYJLOe9gwnSTfGxFT5hf8XrPv7CEZqTWRd0GQpkSHRbGsw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
-  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.40':
-    resolution: {integrity: sha512-BPl1inoJXPpIe38Ja46E4y11vXlJyuleo+9Rmu//pYL5fIDYJkXUj/oAXqjSuwLcssrcwnuPgzvzvlz9++cr3w==}
+  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.42':
+    resolution: {integrity: sha512-AICBYromawouGjj+GS33369E8Vwhy6UwhQEhQ5evfS8jPCsyVvoICJatbDGDGH01dwtVGLD5eDFzPicUOVpe4g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ia32]
     os: [win32]
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.40':
-    resolution: {integrity: sha512-UguA4ltbAk+nbwHRxqaUP/etpTbR0HjyNlsu4Zjbh/ytNbFsbw8CA4tEBkwDyjgI5NIPea6xY11zpl7R2/ddVA==}
+  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.42':
+    resolution: {integrity: sha512-XpZ0M+tjoEiSc9c+uZR7FCnOI0uxDRNs1elGOMjeB0pUP1QmvVbZGYNsyLbLoP4u7e3VQN8rie1OQ8/mB6rcJg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
 
-  '@rolldown/pluginutils@1.0.0-beta.40':
-    resolution: {integrity: sha512-s3GeJKSQOwBlzdUrj4ISjJj5SfSh+aqn0wjOar4Bx95iV1ETI7F6S/5hLcfAxZ9kXDcyrAkxPlqmd1ZITttf+w==}
+  '@rolldown/pluginutils@1.0.0-beta.42':
+    resolution: {integrity: sha512-N7pQzk9CyE7q0bBN/q0J8s6Db279r5kUZc6d7/wWRe9/zXqC52HQovVyu6iXPIDY4BEzzgbVLhVFXrOuGJ22ZQ==}
 
   '@rollup/plugin-babel@6.0.4':
     resolution: {integrity: sha512-YF7Y52kFdFT/xVSuVdjkV5ZdX/3YtmX0QulG+x0taQOtJdHYzVU61aSSkAgVJ7NOv6qPkIYiJSgSWWN/DM5sGw==}
@@ -2457,8 +2457,8 @@ packages:
   ansicolors@0.2.1:
     resolution: {integrity: sha512-tOIuy1/SK/dr94ZA0ckDohKXNeBNqZ4us6PjMVLs5h1w2GBB6uPtOknp2+VF4F/zcy9LI70W+Z+pE2Soajky1w==}
 
-  ansis@4.1.0:
-    resolution: {integrity: sha512-BGcItUBWSMRgOCe+SVZJ+S7yTRG0eGt9cXAHev72yuGcY23hnLA7Bky5L/xLyPINoSN95geovfBkqoTlNZYa7w==}
+  ansis@4.2.0:
+    resolution: {integrity: sha512-HqZ5rWlFjGiV0tDm3UxxgNRqsOTniqoKZu0pIAfh7TZQMGuZK+hH0drySty0si0QXj1ieop4+SkSfPZBPPkHig==}
     engines: {node: '>=14'}
 
   any-promise@1.3.0:
@@ -2947,8 +2947,8 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chalk@5.4.1:
-    resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
+  chalk@5.6.2:
+    resolution: {integrity: sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   chardet@0.7.0:
@@ -6399,8 +6399,8 @@ packages:
       vue-tsc:
         optional: true
 
-  rolldown@1.0.0-beta.40:
-    resolution: {integrity: sha512-VqEHbKpOgTPmQrZ4fVn4eshDQS/6g/fRpNE7cFSJY+eQLDZn4B9X61J6L+hnlt1u2uRI+pF7r1USs6S5fuWCvw==}
+  rolldown@1.0.0-beta.42:
+    resolution: {integrity: sha512-xaPcckj+BbJhYLsv8gOqezc8EdMcKKe/gk8v47B0KPvgABDrQ0qmNPAiT/gh9n9Foe0bUkEv2qzj42uU5q1WRg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -8601,7 +8601,7 @@ snapshots:
     dependencies:
       '@ember/test-waiters': 4.1.1(@glint/template@1.6.0-alpha.3)
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       '@simple-dom/interface': 1.4.0
       decorator-transforms: 2.3.0(@babel/core@7.28.4)
       dom-element-descriptors: 0.5.1
@@ -8613,14 +8613,14 @@ snapshots:
   '@ember/test-waiters@4.1.1(@glint/template@1.6.0-alpha.3)':
     dependencies:
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
 
   '@embroider/addon-dev@8.1.0(@glint/template@1.6.0-alpha.3)(rollup@4.52.3)':
     dependencies:
-      '@embroider/core': 4.2.1(@glint/template@1.6.0-alpha.3)
+      '@embroider/core': 4.2.4(@glint/template@1.6.0-alpha.3)
       '@rollup/pluginutils': 5.2.0(rollup@4.52.3)
       content-tag: 3.1.3
       execa: 5.1.1
@@ -8647,7 +8647,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/compat@4.1.4(@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)':
+  '@embroider/compat@4.1.7(@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)':
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/core': 7.28.4
@@ -8658,8 +8658,8 @@ snapshots:
       '@babel/preset-env': 7.28.0(@babel/core@7.28.4)
       '@babel/runtime': 7.28.4
       '@babel/traverse': 7.28.4
-      '@embroider/core': 4.2.1(@glint/template@1.6.0-alpha.3)
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/core': 4.2.4(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       '@types/babel__code-frame': 7.0.6
       assert-never: 1.4.0
       babel-import-util: 3.0.1
@@ -8702,12 +8702,12 @@ snapshots:
 
   '@embroider/config-meta-loader@1.0.0': {}
 
-  '@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3)':
+  '@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3)':
     dependencies:
       '@babel/core': 7.28.4
       '@babel/parser': 7.28.4
       '@babel/traverse': 7.28.4
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       '@embroider/reverse-exports': 0.1.2
       '@embroider/shared-internals': 3.0.1
       assert-never: 1.4.0
@@ -8738,7 +8738,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@embroider/macros@1.18.2(@glint/template@1.6.0-alpha.3)':
+  '@embroider/macros@1.19.1(@glint/template@1.6.0-alpha.3)':
     dependencies:
       '@embroider/shared-internals': 3.0.1
       assert-never: 1.4.0
@@ -8758,12 +8758,12 @@ snapshots:
       mem: 8.1.1
       resolve.exports: 2.0.3
 
-  '@embroider/router@3.0.3(@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)':
+  '@embroider/router@3.0.4(@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)':
     dependencies:
       '@ember/test-waiters': 4.1.1(@glint/template@1.6.0-alpha.3)
       '@embroider/addon-shim': 1.10.0
     optionalDependencies:
-      '@embroider/core': 4.2.1(@glint/template@1.6.0-alpha.3)
+      '@embroider/core': 4.2.4(@glint/template@1.6.0-alpha.3)
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
@@ -8803,16 +8803,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/vite@1.2.1(@embroider/core@4.2.1(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)(rollup@4.52.3)(vite@7.1.7(@types/node@24.0.12)(jiti@2.5.1)(terser@5.43.1))':
+  '@embroider/vite@1.3.2(@embroider/core@4.2.4(@glint/template@1.6.0-alpha.3))(@glint/template@1.6.0-alpha.3)(rollup@4.52.3)(vite@7.1.7(@types/node@24.0.12)(jiti@2.5.1)(terser@5.43.1))':
     dependencies:
       '@babel/core': 7.28.4
-      '@embroider/core': 4.2.1(@glint/template@1.6.0-alpha.3)
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/core': 4.2.4(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       '@embroider/reverse-exports': 0.1.2
       '@rollup/pluginutils': 5.2.0(rollup@4.52.3)
       assert-never: 1.4.0
       browserslist: 4.25.1
       browserslist-to-esbuild: 2.1.1(browserslist@4.25.1)
+      chalk: 5.6.2
       content-tag: 3.1.3
       debug: 4.4.3
       fast-glob: 3.3.3
@@ -9361,7 +9362,7 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@napi-rs/wasm-runtime@1.0.5':
+  '@napi-rs/wasm-runtime@1.0.6':
     dependencies:
       '@emnapi/core': 1.5.0
       '@emnapi/runtime': 1.5.0
@@ -9496,7 +9497,7 @@ snapshots:
 
   '@open-draft/until@2.1.0': {}
 
-  '@oxc-project/types@0.92.0': {}
+  '@oxc-project/types@0.94.0': {}
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
@@ -9551,51 +9552,51 @@ snapshots:
     dependencies:
       quansync: 0.2.11
 
-  '@rolldown/binding-android-arm64@1.0.0-beta.40':
+  '@rolldown/binding-android-arm64@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-darwin-arm64@1.0.0-beta.40':
+  '@rolldown/binding-darwin-arm64@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-darwin-x64@1.0.0-beta.40':
+  '@rolldown/binding-darwin-x64@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-freebsd-x64@1.0.0-beta.40':
+  '@rolldown/binding-freebsd-x64@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.40':
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.40':
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.40':
+  '@rolldown/binding-linux-arm64-musl@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.40':
+  '@rolldown/binding-linux-x64-gnu@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-linux-x64-musl@1.0.0-beta.40':
+  '@rolldown/binding-linux-x64-musl@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-openharmony-arm64@1.0.0-beta.40':
+  '@rolldown/binding-openharmony-arm64@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-beta.40':
+  '@rolldown/binding-wasm32-wasi@1.0.0-beta.42':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.0.5
+      '@napi-rs/wasm-runtime': 1.0.6
     optional: true
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.40':
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.40':
+  '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.40':
+  '@rolldown/binding-win32-x64-msvc@1.0.0-beta.42':
     optional: true
 
-  '@rolldown/pluginutils@1.0.0-beta.40': {}
+  '@rolldown/pluginutils@1.0.0-beta.42': {}
 
   '@rollup/plugin-babel@6.0.4(@babel/core@7.28.4)(rollup@4.52.3)':
     dependencies:
@@ -10252,7 +10253,7 @@ snapshots:
 
   ansicolors@0.2.1: {}
 
-  ansis@4.1.0: {}
+  ansis@4.2.0: {}
 
   any-promise@1.3.0: {}
 
@@ -10999,7 +11000,7 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chalk@5.4.1: {}
+  chalk@5.6.2: {}
 
   chardet@0.7.0: {}
 
@@ -11454,7 +11455,7 @@ snapshots:
       '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.28.4)
       '@babel/plugin-transform-class-static-block': 7.27.1(@babel/core@7.28.4)
       '@babel/preset-env': 7.28.0(@babel/core@7.28.4)
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       '@embroider/shared-internals': 2.9.1
       babel-loader: 8.4.1(@babel/core@7.28.4)(webpack@5.100.0)
       babel-plugin-ember-modules-api-polyfill: 3.5.0
@@ -11788,7 +11789,7 @@ snapshots:
     dependencies:
       '@ember/test-helpers': 5.3.0(@babel/core@7.28.4)(@glint/template@1.6.0-alpha.3)
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       decorator-transforms: 2.3.0(@babel/core@7.28.4)
     transitivePeerDependencies:
       - '@babel/core'
@@ -11820,7 +11821,7 @@ snapshots:
     dependencies:
       '@ember/test-helpers': 5.3.0(@babel/core@7.28.4)(@glint/template@1.6.0-alpha.3)
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       qunit: 2.24.1
       qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
@@ -11836,7 +11837,7 @@ snapshots:
   ember-resources@7.0.7(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.3):
     dependencies:
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       '@glint/template': 1.6.0-alpha.3
     optionalDependencies:
       '@glimmer/component': 2.0.0
@@ -11903,7 +11904,7 @@ snapshots:
   ember-sweet-owner@1.0.1(@glint/template@1.6.0-alpha.3):
     dependencies:
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       inflection: 3.0.2
     transitivePeerDependencies:
       - '@glint/template'
@@ -14703,7 +14704,7 @@ snapshots:
     dependencies:
       '@ember/test-waiters': 4.1.1(@glint/template@1.6.0-alpha.3)
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.2(@glint/template@1.6.0-alpha.3)
+      '@embroider/macros': 1.19.1(@glint/template@1.6.0-alpha.3)
       decorator-transforms: 2.3.0(@babel/core@7.28.4)
       ember-resources: 7.0.7(@glimmer/component@2.0.0)(@glint/template@1.6.0-alpha.3)
     transitivePeerDependencies:
@@ -14809,7 +14810,7 @@ snapshots:
       '@npmcli/package-json': 6.2.0
       '@octokit/rest': 21.1.1
       assert-never: 1.4.0
-      chalk: 5.4.1
+      chalk: 5.6.2
       cli-highlight: 2.1.11
       execa: 9.6.0
       fs-extra: 11.3.0
@@ -14927,7 +14928,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rolldown-plugin-dts@0.16.9(rolldown@1.0.0-beta.40)(typescript@5.9.2):
+  rolldown-plugin-dts@0.16.9(rolldown@1.0.0-beta.42)(typescript@5.9.2):
     dependencies:
       '@babel/generator': 7.28.3
       '@babel/parser': 7.28.4
@@ -14938,33 +14939,33 @@ snapshots:
       dts-resolver: 2.1.2
       get-tsconfig: 4.10.1
       magic-string: 0.30.19
-      rolldown: 1.0.0-beta.40
+      rolldown: 1.0.0-beta.42
     optionalDependencies:
       typescript: 5.9.2
     transitivePeerDependencies:
       - oxc-resolver
       - supports-color
 
-  rolldown@1.0.0-beta.40:
+  rolldown@1.0.0-beta.42:
     dependencies:
-      '@oxc-project/types': 0.92.0
-      '@rolldown/pluginutils': 1.0.0-beta.40
-      ansis: 4.1.0
+      '@oxc-project/types': 0.94.0
+      '@rolldown/pluginutils': 1.0.0-beta.42
+      ansis: 4.2.0
     optionalDependencies:
-      '@rolldown/binding-android-arm64': 1.0.0-beta.40
-      '@rolldown/binding-darwin-arm64': 1.0.0-beta.40
-      '@rolldown/binding-darwin-x64': 1.0.0-beta.40
-      '@rolldown/binding-freebsd-x64': 1.0.0-beta.40
-      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-beta.40
-      '@rolldown/binding-linux-arm64-gnu': 1.0.0-beta.40
-      '@rolldown/binding-linux-arm64-musl': 1.0.0-beta.40
-      '@rolldown/binding-linux-x64-gnu': 1.0.0-beta.40
-      '@rolldown/binding-linux-x64-musl': 1.0.0-beta.40
-      '@rolldown/binding-openharmony-arm64': 1.0.0-beta.40
-      '@rolldown/binding-wasm32-wasi': 1.0.0-beta.40
-      '@rolldown/binding-win32-arm64-msvc': 1.0.0-beta.40
-      '@rolldown/binding-win32-ia32-msvc': 1.0.0-beta.40
-      '@rolldown/binding-win32-x64-msvc': 1.0.0-beta.40
+      '@rolldown/binding-android-arm64': 1.0.0-beta.42
+      '@rolldown/binding-darwin-arm64': 1.0.0-beta.42
+      '@rolldown/binding-darwin-x64': 1.0.0-beta.42
+      '@rolldown/binding-freebsd-x64': 1.0.0-beta.42
+      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-beta.42
+      '@rolldown/binding-linux-arm64-gnu': 1.0.0-beta.42
+      '@rolldown/binding-linux-arm64-musl': 1.0.0-beta.42
+      '@rolldown/binding-linux-x64-gnu': 1.0.0-beta.42
+      '@rolldown/binding-linux-x64-musl': 1.0.0-beta.42
+      '@rolldown/binding-openharmony-arm64': 1.0.0-beta.42
+      '@rolldown/binding-wasm32-wasi': 1.0.0-beta.42
+      '@rolldown/binding-win32-arm64-msvc': 1.0.0-beta.42
+      '@rolldown/binding-win32-ia32-msvc': 1.0.0-beta.42
+      '@rolldown/binding-win32-x64-msvc': 1.0.0-beta.42
 
   rollup-plugin-copy-assets@2.0.3(rollup@4.52.3):
     dependencies:
@@ -15951,15 +15952,15 @@ snapshots:
 
   tsdown@0.15.5(typescript@5.9.2):
     dependencies:
-      ansis: 4.1.0
+      ansis: 4.2.0
       cac: 6.7.14
       chokidar: 4.0.3
       debug: 4.4.3
       diff: 8.0.2
       empathic: 2.0.0
       hookable: 5.5.3
-      rolldown: 1.0.0-beta.40
-      rolldown-plugin-dts: 0.16.9(rolldown@1.0.0-beta.40)(typescript@5.9.2)
+      rolldown: 1.0.0-beta.42
+      rolldown-plugin-dts: 0.16.9(rolldown@1.0.0-beta.42)(typescript@5.9.2)
       semver: 7.7.2
       tinyexec: 1.0.1
       tinyglobby: 0.2.15
