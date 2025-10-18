@@ -73,7 +73,7 @@
     "@glint/core": "^2.0.0-alpha.10",
     "@glint/environment-ember-loose": "^2.0.0-alpha.3",
     "@glint/environment-ember-template-imports": "^2.0.0-alpha.3",
-    "@glint/template": "^1.6.1",
+    "@glint/template": "^1.6.2",
     "@gossi/config-eslint": "^1.1.1",
     "@gossi/config-prettier": "^1.0.1",
     "@gossi/config-targets": "^1.0.1",
