@@ -78,7 +78,7 @@
     "@gossi/config-prettier": "^1.0.1",
     "@gossi/config-targets": "^1.0.1",
     "@gossi/config-template-lint": "^1.0.1",
-    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-babel": "^6.1.0",
     "@types/qunit": "^2.19.13",
     "babel-plugin-ember-template-compilation": "^3.0.1",
     "ember-qunit": "^9.0.4",
