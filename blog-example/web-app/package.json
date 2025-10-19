@@ -68,7 +68,7 @@
     "decorator-transforms": "^2.3.0",
     "ember-ability": "workspace:*",
     "ember-auto-import": "^2.11.1",
-    "ember-cli": "~6.7.2",
+    "ember-cli": "~6.8.0",
     "ember-cli-babel": "^8.2.0",
     "ember-link": "^3.5.0",
     "ember-load-initializers": "^3.0.1",
