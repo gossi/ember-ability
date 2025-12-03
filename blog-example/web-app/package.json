@@ -84,7 +84,7 @@
     "globals": "^16.5.0",
     "msw": "^2.12.3",
     "prettier": "^3.6.0",
-    "qunit": "^2.24.2",
+    "qunit": "^2.24.3",
     "qunit-dom": "^3.5.0",
     "reactiveweb": "^1.9.0",
     "stylelint": "^16.26.0",
