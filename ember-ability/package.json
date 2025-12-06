@@ -69,7 +69,7 @@
     "@embroider/core": "^4.4.0",
     "@embroider/compat": "^4.1.11",
     "@embroider/macros": "^1.19.5",
-    "@embroider/vite": "^1.4.3",
+    "@embroider/vite": "^1.4.4",
     "@glint/core": "^2.0.0-alpha.10",
     "@glint/environment-ember-loose": "^2.0.0-alpha.3",
     "@glint/environment-ember-template-imports": "^2.0.0-alpha.3",
