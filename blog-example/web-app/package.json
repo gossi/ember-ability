@@ -86,7 +86,7 @@
     "prettier": "^3.6.0",
     "qunit": "^2.24.3",
     "qunit-dom": "^3.5.0",
-    "reactiveweb": "^1.9.0",
+    "reactiveweb": "^1.9.1",
     "stylelint": "^16.26.1",
     "testem": "^3.17.0",
     "tracked-built-ins": "^4.0.0",
