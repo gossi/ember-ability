@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "release-plan": "^0.17.4",
-    "turbo": "^2.7.4"
+    "turbo": "^2.7.5"
   },
   "packageManager": "pnpm@10.28.0"
 }
