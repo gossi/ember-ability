@@ -79,7 +79,7 @@
     "ember-resources": "^7.0.7",
     "ember-source": "~6.10.1",
     "ember-template-lint": "^7.9.1",
-    "eslint": "^9.29.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-ember": "^12.5.0",
     "globals": "^17.3.0",
     "msw": "^2.12.9",
