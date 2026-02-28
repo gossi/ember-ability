@@ -87,7 +87,7 @@
     "qunit": "^2.25.0",
     "qunit-dom": "^3.5.0",
     "reactiveweb": "^1.9.1",
-    "stylelint": "^17.3.0",
+    "stylelint": "^17.4.0",
     "testem": "^3.17.0",
     "tracked-built-ins": "^4.1.0",
     "typescript": "^5.9.3",
