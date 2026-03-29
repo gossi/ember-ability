@@ -126,7 +126,7 @@ importers:
         version: 1.0.1(prettier@3.6.2)
       '@gossi/config-stylelint':
         specifier: ^1.0.2
-        version: 1.0.2(stylelint@17.5.0(typescript@5.9.3))
+        version: 1.0.2(stylelint@17.6.0(typescript@5.9.3))
       '@gossi/config-template-lint':
         specifier: ^1.0.1
         version: 1.0.1(ember-template-lint@7.9.1)(prettier@3.6.2)
@@ -206,8 +206,8 @@ importers:
         specifier: ^1.9.1
         version: 1.9.1(@babel/core@7.29.0)(@ember/test-waiters@4.1.1(@babel/core@7.29.0)(@glint/template@1.7.3))(@glimmer/component@2.0.0)(@glint/template@1.7.3)
       stylelint:
-        specifier: ^17.5.0
-        version: 17.5.0(typescript@5.9.3)
+        specifier: ^17.6.0
+        version: 17.6.0(typescript@5.9.3)
       testem:
         specifier: ^3.18.0
         version: 3.18.0(ejs@3.1.10)(handlebars@4.7.8)(underscore@1.13.7)
@@ -7003,8 +7003,8 @@ packages:
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
 
-  stylelint@17.5.0:
-    resolution: {integrity: sha512-o/NS6zhsPZFmgUm5tXX4pVNg1XDOZSlucLdf2qow/lVn4JIyzZIQ5b3kad1ugqUj3GSIgr2u5lQw7X8rjqw33g==}
+  stylelint@17.6.0:
+    resolution: {integrity: sha512-tokrsMIVAR9vAQ/q3UVEr7S0dGXCi7zkCezPRnS2kqPUulvUh5Vgfwngrk4EoAoW7wnrThqTdnTFN5Ra7CaxIg==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -7708,8 +7708,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  write-file-atomic@7.0.0:
-    resolution: {integrity: sha512-YnlPC6JqnZl6aO4uRc+dx5PHguiR9S6WeoLtpxNT9wIG+BDya7ZNE1q7KOjVgaA73hKhKLpVPgJ5QA9THQ5BRg==}
+  write-file-atomic@7.0.1:
+    resolution: {integrity: sha512-OTIk8iR8/aCRWBqvxrzxR0hgxWpnYBblY1S5hDWBQfk/VFmJwzmJgQFN3WsoUKHISv2eAwe+PpbUzyL1CKTLXg==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
   ws@8.17.1:
@@ -9275,13 +9275,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@gossi/config-stylelint@1.0.2(stylelint@17.5.0(typescript@5.9.3))':
+  '@gossi/config-stylelint@1.0.2(stylelint@17.6.0(typescript@5.9.3))':
     dependencies:
       '@gossi/config-targets': 1.0.1
-      stylelint: 17.5.0(typescript@5.9.3)
-      stylelint-config-clean-order: 7.0.0(stylelint@17.5.0(typescript@5.9.3))
-      stylelint-config-standard: 38.0.0(stylelint@17.5.0(typescript@5.9.3))
-      stylelint-no-unsupported-browser-features: 8.0.4(stylelint@17.5.0(typescript@5.9.3))
+      stylelint: 17.6.0(typescript@5.9.3)
+      stylelint-config-clean-order: 7.0.0(stylelint@17.6.0(typescript@5.9.3))
+      stylelint-config-standard: 38.0.0(stylelint@17.6.0(typescript@5.9.3))
+      stylelint-no-unsupported-browser-features: 8.0.4(stylelint@17.6.0(typescript@5.9.3))
 
   '@gossi/config-targets@1.0.1': {}
 
@@ -15445,33 +15445,33 @@ snapshots:
 
   styled_string@0.0.1: {}
 
-  stylelint-config-clean-order@7.0.0(stylelint@17.5.0(typescript@5.9.3)):
+  stylelint-config-clean-order@7.0.0(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
-      stylelint: 17.5.0(typescript@5.9.3)
-      stylelint-order: 6.0.4(stylelint@17.5.0(typescript@5.9.3))
+      stylelint: 17.6.0(typescript@5.9.3)
+      stylelint-order: 6.0.4(stylelint@17.6.0(typescript@5.9.3))
 
-  stylelint-config-recommended@16.0.0(stylelint@17.5.0(typescript@5.9.3)):
+  stylelint-config-recommended@16.0.0(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
-      stylelint: 17.5.0(typescript@5.9.3)
+      stylelint: 17.6.0(typescript@5.9.3)
 
-  stylelint-config-standard@38.0.0(stylelint@17.5.0(typescript@5.9.3)):
+  stylelint-config-standard@38.0.0(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
-      stylelint: 17.5.0(typescript@5.9.3)
-      stylelint-config-recommended: 16.0.0(stylelint@17.5.0(typescript@5.9.3))
+      stylelint: 17.6.0(typescript@5.9.3)
+      stylelint-config-recommended: 16.0.0(stylelint@17.6.0(typescript@5.9.3))
 
-  stylelint-no-unsupported-browser-features@8.0.4(stylelint@17.5.0(typescript@5.9.3)):
+  stylelint-no-unsupported-browser-features@8.0.4(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
       doiuse: 6.0.5
       postcss: 8.5.8
-      stylelint: 17.5.0(typescript@5.9.3)
+      stylelint: 17.6.0(typescript@5.9.3)
 
-  stylelint-order@6.0.4(stylelint@17.5.0(typescript@5.9.3)):
+  stylelint-order@6.0.4(stylelint@17.6.0(typescript@5.9.3)):
     dependencies:
       postcss: 8.5.8
       postcss-sorting: 8.0.2(postcss@8.5.8)
-      stylelint: 17.5.0(typescript@5.9.3)
+      stylelint: 17.6.0(typescript@5.9.3)
 
-  stylelint@17.5.0(typescript@5.9.3):
+  stylelint@17.6.0(typescript@5.9.3):
     dependencies:
       '@csstools/css-calc': 3.1.1(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
@@ -15494,7 +15494,6 @@ snapshots:
       html-tags: 5.1.0
       ignore: 7.0.5
       import-meta-resolve: 4.2.0
-      imurmurhash: 0.1.4
       is-plain-object: 5.0.0
       mathml-tag-names: 4.0.0
       meow: 14.1.0
@@ -15509,7 +15508,7 @@ snapshots:
       supports-hyperlinks: 4.4.0
       svg-tags: 1.0.0
       table: 6.9.0
-      write-file-atomic: 7.0.0
+      write-file-atomic: 7.0.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -16375,9 +16374,8 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  write-file-atomic@7.0.0:
+  write-file-atomic@7.0.1:
     dependencies:
-      imurmurhash: 0.1.4
       signal-exit: 4.1.0
 
   ws@8.17.1: {}
