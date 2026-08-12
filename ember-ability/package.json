@@ -79,7 +79,7 @@
     "@gossi/config-targets": "^1.0.1",
     "@gossi/config-template-lint": "^1.0.1",
     "@rollup/plugin-babel": "^7.0.0",
-    "@types/qunit": "^2.19.13",
+    "@types/qunit": "^2.19.14",
     "babel-plugin-ember-template-compilation": "^4.0.0",
     "ember-qunit": "^9.0.4",
     "ember-resolver": "^13.2.0",
