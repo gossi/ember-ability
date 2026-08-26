@@ -203,8 +203,8 @@ importers:
         specifier: ^3.5.0
         version: 3.5.0
       reactiveweb:
-        specifier: ^1.9.1
-        version: 1.9.1(@babel/core@7.29.7)(@ember/test-waiters@4.1.1(@babel/core@7.29.7)(@glint/template@1.7.3))(@glimmer/component@2.0.0)(@glint/template@1.7.3)
+        specifier: ^1.9.3
+        version: 1.9.3(@babel/core@7.29.7)(@ember/test-waiters@4.1.1(@babel/core@7.29.7)(@glint/template@1.7.3))(@glimmer/component@2.0.0)(@glint/template@1.7.3)
       stylelint:
         specifier: ^17.6.0
         version: 17.6.0(typescript@5.9.3)
@@ -4130,6 +4130,7 @@ packages:
   eslint@9.39.3:
     resolution: {integrity: sha512-VmQ+sifHUbI/IcSopBCF/HO3YiHQx/AVd3UVyYL6weuwW+HvON9VYn5l6Zl1WZzPWXPNZrSQpxwkkZ/VuvJZzg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -6233,8 +6234,8 @@ packages:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
 
-  reactiveweb@1.9.1:
-    resolution: {integrity: sha512-bd/Iyk8wm9A8qyxKVu8w4M4POWOtZErRKr6EJwnrBitceSLlY+yk1/m9AuKec/5XvcNnDi1NRdvBQDBEaVpk6A==}
+  reactiveweb@1.9.3:
+    resolution: {integrity: sha512-RG7UVwn8EcokVfHFMi4G/v8Zw/ny5Myy/gZ6ywDnChL7gH1wmNuLHxwhps/BHewYz4Rw89rEMUtY21ddipynhQ==}
     peerDependencies:
       '@ember/test-waiters': '>= 3.1.0'
 
@@ -14423,11 +14424,10 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  reactiveweb@1.9.1(@babel/core@7.29.7)(@ember/test-waiters@4.1.1(@babel/core@7.29.7)(@glint/template@1.7.3))(@glimmer/component@2.0.0)(@glint/template@1.7.3):
+  reactiveweb@1.9.3(@babel/core@7.29.7)(@ember/test-waiters@4.1.1(@babel/core@7.29.7)(@glint/template@1.7.3))(@glimmer/component@2.0.0)(@glint/template@1.7.3):
     dependencies:
       '@ember/test-waiters': 4.1.1(@babel/core@7.29.7)(@glint/template@1.7.3)
       '@embroider/addon-shim': 1.10.2
-      '@embroider/macros': 1.20.2(@babel/core@7.29.7)(@glint/template@1.7.3)
       decorator-transforms: 2.3.1(@babel/core@7.29.7)
       ember-resources: 7.0.7(@babel/core@7.29.7)(@glimmer/component@2.0.0)(@glint/template@1.7.3)
     transitivePeerDependencies:
