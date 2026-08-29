@@ -173,8 +173,8 @@ importers:
         specifier: ^13.2.0
         version: 13.2.0
       ember-resources:
-        specifier: ^7.0.7
-        version: 7.0.7(@babel/core@7.29.7)(@glimmer/component@2.0.0)(@glint/template@1.7.3)
+        specifier: ^7.1.0
+        version: 7.1.0(@glimmer/component@2.0.0)(@glint/template@1.7.3)
       ember-source:
         specifier: ~6.11.1
         version: 6.11.1(@glimmer/component@2.0.0)(rsvp@4.8.5)
@@ -309,8 +309,8 @@ importers:
         specifier: ^13.2.0
         version: 13.2.0
       ember-resources:
-        specifier: ^7.0.7
-        version: 7.0.7(@babel/core@7.29.7)(@glimmer/component@2.0.0)(@glint/template@1.7.3)
+        specifier: ^7.1.0
+        version: 7.1.0(@glimmer/component@2.0.0)(@glint/template@1.7.3)
       ember-source:
         specifier: ^6.11.1
         version: 6.11.1(@glimmer/component@2.0.0)(rsvp@4.8.5)
@@ -3821,13 +3821,15 @@ packages:
   ember-resolver@13.2.0:
     resolution: {integrity: sha512-A+BffoSKC0ngiczbgaz/IOY66ovZVRRHHIDDi+d7so5i0By8xuB4nXgZZ6Dv3u/3WwoUyixgUvb0xTUO+MtupA==}
 
-  ember-resources@7.0.7:
-    resolution: {integrity: sha512-0tEfLTi9hHNwZaBsTjLf+by+YXHL4Zj2VITLfFkcqJiwHIIsBnOddxtTSrjRmYLJd6L3JXfaMcVdUwT+B050Ww==}
+  ember-resources@7.1.0:
+    resolution: {integrity: sha512-3Pt/bhXeG6ACHgsDi03R00BH29Tso4j08yFNnQB/h/SZr06zjByQdatlB1YmCI0ebRDU1Z0wZA6c3EtiSQKkkA==}
     peerDependencies:
       '@glimmer/component': '>= 1.1.2 || >= 2.0.0'
       '@glint/template': '>= 1.0.0'
     peerDependenciesMeta:
       '@glimmer/component':
+        optional: true
+      '@glint/template':
         optional: true
 
   ember-rfc176-data@0.3.18:
@@ -11728,15 +11730,13 @@ snapshots:
 
   ember-resolver@13.2.0: {}
 
-  ember-resources@7.0.7(@babel/core@7.29.7)(@glimmer/component@2.0.0)(@glint/template@1.7.3):
+  ember-resources@7.1.0(@glimmer/component@2.0.0)(@glint/template@1.7.3):
     dependencies:
       '@embroider/addon-shim': 1.10.2
-      '@embroider/macros': 1.20.2(@babel/core@7.29.7)(@glint/template@1.7.3)
-      '@glint/template': 1.7.3
     optionalDependencies:
       '@glimmer/component': 2.0.0
+      '@glint/template': 1.7.3
     transitivePeerDependencies:
-      - '@babel/core'
       - supports-color
 
   ember-rfc176-data@0.3.18: {}
@@ -14433,7 +14433,7 @@ snapshots:
       '@ember/test-waiters': 4.1.1(@babel/core@7.29.7)(@glint/template@1.7.3)
       '@embroider/addon-shim': 1.10.2
       decorator-transforms: 2.3.1(@babel/core@7.29.7)
-      ember-resources: 7.0.7(@babel/core@7.29.7)(@glimmer/component@2.0.0)(@glint/template@1.7.3)
+      ember-resources: 7.1.0(@glimmer/component@2.0.0)(@glint/template@1.7.3)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glimmer/component'
